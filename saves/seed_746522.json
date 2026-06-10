@@ -6,23 +6,62 @@
     "class_id": "it_department_survivor",
     "class_description": "Survived printer drivers, password resets, and now whatever this is.",
     "special_ability": "Have You Tried Rebooting It: balanced stats with extra luck.",
-    "level": 5,
-    "xp": 75,
-    "hp": 86,
-    "max_hp": 94,
-    "attack": 12,
-    "defense": 10,
-    "luck": 9,
-    "credits": 149,
-    "rooms_cleared": 8,
-    "items_found": 11,
+    "level": 7,
+    "xp": 93,
+    "hp": 93,
+    "max_hp": 106,
+    "attack": 14,
+    "defense": 11,
+    "luck": 10,
+    "credits": 151,
+    "rooms_cleared": 12,
+    "items_found": 18,
     "traps_survived": 0,
     "defeated_bosses": [
       "president_of_the_hoa",
-      "zone_f_attendant"
+      "zone_f_attendant",
+      "supervisor_on_line_zero"
     ],
     "current_room_id": "room_13",
     "inventory": [
+      {
+        "id": "supervisor_red_button",
+        "name": "Supervisor Red Button",
+        "type": "consumable",
+        "rarity": "epic",
+        "damage": 26,
+        "effect": "combat_damage",
+        "flavor": "Do not press unless prepared to be measured."
+      },
+      {
+        "id": "iv_bag_of_espresso",
+        "name": "IV Bag of Espresso",
+        "type": "consumable",
+        "rarity": "rare",
+        "heal": 18,
+        "attack_bonus": 2,
+        "effect": "heal_and_inspire",
+        "flavor": "Administered directly into poor judgment."
+      },
+      {
+        "id": "corporate_riot_shield",
+        "name": "Corporate Riot Shield",
+        "type": "armor",
+        "rarity": "uncommon",
+        "attack_bonus": 0,
+        "defense_bonus": 3,
+        "effect": "none",
+        "flavor": "Transparent, heavy, and branded with an apology."
+      },
+      {
+        "id": "donation_bucket_helmet",
+        "name": "Donation Bucket Helmet",
+        "type": "armor",
+        "rarity": "uncommon",
+        "defense_bonus": 3,
+        "effect": "clanging_mercy",
+        "flavor": "Every hit sounds like loose change and disappointment."
+      },
       {
         "id": "varsity_pad_armor",
         "name": "Varsity Pad Armor",
@@ -32,15 +71,6 @@
         "attack_bonus": 1,
         "effect": "school_spirit",
         "flavor": "Smells like grass stains and unresolved rivalries."
-      },
-      {
-        "id": "oil_slick_bottle",
-        "name": "Oil Slick Bottle",
-        "type": "consumable",
-        "rarity": "uncommon",
-        "damage": 15,
-        "effect": "combat_damage",
-        "flavor": "Slippery, flammable, and marketed as artisanal."
       },
       {
         "id": "bingo_dabber_mace",
@@ -61,24 +91,6 @@
         "flavor": "The mystery is legally protected."
       },
       {
-        "id": "mystery_meat_burrito",
-        "name": "Mystery Meat Burrito",
-        "type": "consumable",
-        "rarity": "common",
-        "heal": 14,
-        "effect": "heal",
-        "flavor": "The mystery is legally protected."
-      },
-      {
-        "id": "mystery_meat_burrito",
-        "name": "Mystery Meat Burrito",
-        "type": "consumable",
-        "rarity": "common",
-        "heal": 14,
-        "effect": "heal",
-        "flavor": "The mystery is legally protected."
-      },
-      {
         "id": "survey_coupon_stack",
         "name": "Survey Coupon Stack",
         "type": "trinket",
@@ -86,6 +98,16 @@
         "luck_bonus": 1,
         "effect": "feedback_loop",
         "flavor": "Worth five percent off pain."
+      },
+      {
+        "id": "churro_shiv",
+        "name": "Churro Shiv",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "cinnamon_cut",
+        "flavor": "Crunchy, sweet, and inadmissible in court."
       },
       {
         "id": "churro_shiv",
@@ -118,6 +140,26 @@
         "flavor": "The plastic sleeve leaves a mark."
       },
       {
+        "id": "soggy_crowbar",
+        "name": "Soggy Crowbar",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Damp, reliable, and emotionally unavailable."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      },
+      {
         "id": "stapler_of_minor_regret",
         "name": "Stapler of Minor Regret",
         "type": "weapon",
@@ -141,7 +183,7 @@
     },
     "status_effects": []
   },
-  "current_floor": 2,
+  "current_floor": 3,
   "floors": {
     "1": {
       "floor_number": 1,
@@ -1119,6 +1161,497 @@
           "product": "Maps That Admit Nothing"
         },
         "victory_recap": "\"Huge congratulations to Crawler on making it out alive from the Parking Garage Depths of Zone F with their sanity (mostly) intact! After navigating through a sea of broken elevators and malfunctioning payment kiosks, our intrepid IT Department Survivor faced off against the diabolical Zone F Attendant.\n\nThis behemoth of bureaucratic red tape summoned a torrent of pointless paperwork and confusing menu options, but Crawler persevered, exploiting a vulnerability in the system by using their vast knowledge of Excel macros to create an infinite loop of 'Please Wait' screens.\n\nThe crowd (a lone janitor in the background) goes wild as Crawler emerges victorious, having single-handedly brought down the entire parking garage's IT infrastructure. Who needs a sword when you have a decent understanding of Active Directory?\""
+      },
+      "generated_by_ollama": true
+    },
+    "3": {
+      "floor_number": 3,
+      "theme": {
+        "id": "high_school_afterhours",
+        "name": "High School After-Hours Detention Pit",
+        "tone": "teenage institutional nightmare",
+        "description": "Lockers slam by themselves while the intercom assigns detention to anyone still breathing.",
+        "enemy_tags": [
+          "school",
+          "undead",
+          "sports",
+          "paperwork",
+          "cafeteria"
+        ],
+        "trap_tags": [
+          "locker",
+          "gym",
+          "detention",
+          "cafeteria",
+          "school"
+        ],
+        "boss_tags": [
+          "school",
+          "detention"
+        ],
+        "loot_bias": [
+          "stationery",
+          "snacks",
+          "improvised_weapons"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 3. The broadcast lights ignite over High School After-Hours Detention Pit.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Condemned Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "karaoke_banshee",
+              "name": "Karaoke Banshee",
+              "hp": 26,
+              "attack": 10,
+              "defense": 1,
+              "xp": 21,
+              "tags": [
+                "cruise",
+                "tourist",
+                "undead"
+              ],
+              "abilities": [
+                "chorus_wail"
+              ],
+              "flavor": "She only knows one song, and it has eighteen key changes."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Condemned Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Condemned Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "unsafe_tilt_a_whirl",
+            "name": "Unsafe Tilt-A-Whirl",
+            "difficulty": 16,
+            "damage": 9,
+            "tags": [
+              "carnival",
+              "ride"
+            ],
+            "flavor": "The ride operator is a skull with a whistle."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Flickering Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "service_elevator_confessional",
+            "name": "Service Elevator Confessional",
+            "type": "NPC Event",
+            "outcomes": [
+              "A terrified maintenance worker admits the elevator only respects bribes.",
+              "The elevator opens to reveal a janitor who has been between floors since Tuesday."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "A terrified maintenance worker admits the elevator only respects bribes."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Sanitized Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Discount Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "security_wraith",
+              "name": "Security Wraith",
+              "hp": 22,
+              "attack": 7,
+              "defense": 2,
+              "xp": 16,
+              "tags": [
+                "mall",
+                "security",
+                "undead"
+              ],
+              "abilities": [
+                "flashlight_glare"
+              ],
+              "flavor": "Still enforcing rules nobody wrote down."
+            },
+            {
+              "id": "escalation_demon",
+              "name": "Escalation Demon",
+              "hp": 31,
+              "attack": 10,
+              "defense": 3,
+              "xp": 23,
+              "tags": [
+                "call_center",
+                "paperwork",
+                "undead"
+              ],
+              "abilities": [
+                "manager_transfer"
+              ],
+              "flavor": "It has been promoted beyond mortality."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Suspicious Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "buffet_tongs_of_grabbing",
+              "name": "Buffet Tongs of Grabbing",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "second_helping",
+              "flavor": "Good reach. Questionable hygiene."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "ominous_merch_table",
+            "name": "Ominous Merch Table",
+            "type": "Shop",
+            "outcomes": [
+              "A vendor sells shirts commemorating deaths that have not happened yet.",
+              "The merch table accepts credits and denial."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "A vendor sells shirts commemorating deaths that have not happened yet."
+          },
+          "cleared": false,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Condemned Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "copay_crawler",
+              "name": "Mini-Boss Copay Crawler",
+              "hp": 37,
+              "attack": 10,
+              "defense": 3,
+              "xp": 34,
+              "tags": [
+                "hospital",
+                "billing",
+                "paperwork"
+              ],
+              "abilities": [
+                "deductible_bite"
+              ],
+              "flavor": "Small, fast, and somehow out of network."
+            }
+          ],
+          "loot": [
+            {
+              "id": "varsity_pad_armor",
+              "name": "Varsity Pad Armor",
+              "type": "armor",
+              "rarity": "uncommon",
+              "defense_bonus": 3,
+              "attack_bonus": 1,
+              "effect": "school_spirit",
+              "flavor": "Smells like grass stains and unresolved rivalries."
+            },
+            {
+              "id": "golf_cart_bumper",
+              "name": "Golf Cart Bumper",
+              "type": "armor",
+              "rarity": "rare",
+              "defense_bonus": 4,
+              "attack_bonus": 1,
+              "effect": "fairway_impact",
+              "flavor": "Low speed. High disrespect."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Premium Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "subscription_spike_wall",
+            "name": "Subscription Spike Wall",
+            "difficulty": 15,
+            "damage": 8,
+            "tags": [
+              "subscription",
+              "algorithm",
+              "screen"
+            ],
+            "flavor": "Premium users may disable impalement."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Haunted Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        }
+      },
+      "boss": {
+        "id": "supervisor_on_line_zero",
+        "name": "Supervisor on Line Zero",
+        "hp": 116,
+        "attack": 15,
+        "defense": 6,
+        "xp": 67,
+        "abilities": [
+          "hold_forever",
+          "quality_assurance_scream"
+        ],
+        "floor_theme_tags": [
+          "call_center",
+          "paperwork"
+        ],
+        "flavor": "A headset-wearing demon whose empathy script has been redacted."
+      },
+      "lore": {
+        "title": "Detention Pit",
+        "intro": "Welcome to 'Detention Despair', the most unpredictable and deadly after-hours experience in the world! The high school halls of suffering are open for business, and you're about to become its newest star attraction. Let's see how long our contestants... er, participants... can last before they get expelled... permanently.",
+        "description": "The fluorescent lights overhead cast an eerie glow over the rows of metal lockers, their doors slamming shut with a ominous clang as the intercom spews out its usual assortment of cruel detentions. Students who didn't make it through lunch without getting into trouble are now trying to survive the night in this institutional nightmare. Every sound echo and creak makes you wonder what's lurking just out of sight. Can you outrun the Escalation Demon, avoid the Karaoke Banshee's ear-piercing shrieks, or sneak past the Mini-Boss Copay Crawler without getting caught? Probably not.",
+        "warning": "Be warned: the Supervisor on Line Zero is watching your every move, and they won't hesitate to call in a Security Wraith to put an end to your detention... and your life. Don't say we didn't warn you.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "(The sound of muffled screams and fluorescent lights flickering ominously fill the air as you approach the detention pit's central control room.)\n\nSupervisor on Line Zero: (sighing dramatically) Ah, another \"hero\" seeking to escape this wretched abyss. How... thrilling.\n\n(They emerge from the shadows, a shrill whistle piercing the air as they take their position behind a desk cluttered with dusty files and broken coffee cups.)\n\nSupervisor on Line Zero: Welcome to my domain, where the unwashed masses are sent to rot in obscurity. You should feel right at home.\n\nTheir eyes, red-rimmed from too much overtime, gleam with malevolent intent as they lean forward, voice dripping with sarcasm.\n\nSupervisor on Line Zero: I'll be watching your every move, noting each mistake, and cataloging each failure for the inevitable \"disciplinary review\" that will never come. So, do try to enjoy yourselves while you can... (smirking) before I send you all straight to the pit of despair that awaits you outside these walls.\n\nThey lean",
+        "sponsor_message": "\"At GrimCo Mop Sciences, we're thrilled to be the official cleaning solution of 'Dungeon Delirium'! Our Blood-Adjacent Floor Care Foam is specifically designed for areas with... enthusiastic participant turnover. With its unique enzyme blend and soothing aroma, you'll forget all about the gruesome goings-on in this treacherous tomb. Trust us, your floors (and your conscience) will thank you. GrimCo: cleaning up after others' mistakes, one bloody step at a time!\"",
+        "sponsor": {
+          "id": "grimco_mops",
+          "name": "GrimCo Mop Sciences",
+          "product": "Blood-Adjacent Floor Care Foam"
+        },
+        "victory_recap": "\"Victory! On Floor 3, the infamous High School After-Hours Detention Pit, Crawler has emerged victorious against the tyrannical Supervisor on Line Zero.\n\nThis behemoth of boredom and paperwork was no match for our IT Department Survivor's expert knowledge of keyboard shortcuts and creative uses of the F5 key. Armed with nothing but a trusty stapler and an unwavering disdain for bureaucracy, Crawler dodged the supervisor's relentless barrage of performance reviews and memos to mow down.\n\nWith a triumphant cry of 'System Update Required,' Crawler administered the coup de gr\u00e2ce, deleting the supervisor's very existence from the server. The pit fell silent, awaiting the next victim... err, adventurer.\""
       },
       "generated_by_ollama": true
     }

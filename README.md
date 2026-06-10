@@ -32,19 +32,6 @@ The project is still in active development.
 
 ---
 
-## Screenshots
-
-Add screenshots here once you capture them:
-
-```md
-![Main Menu](docs/screenshots/main_menu.png)
-![Class Select](docs/screenshots/class_select.png)
-![Combat](docs/screenshots/combat.png)
-![Inventory](docs/screenshots/inventory.png)
-```
-
----
-
 ## Features
 
 ### Dungeon Exploration
