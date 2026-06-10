@@ -54,8 +54,8 @@ class Game:
         self.floor_generator = FloorGenerator()
         self.ollama_client = OllamaClient(
             model="llama3.1:8b",
-            base_url="http://localhost:11434",
-            timeout=45,
+            base_url="http://127.0.0.1:11434",
+            timeout=90,
             enabled=True,
         )
         self.lore_manager = LoreManager(self.ollama_client)
@@ -80,6 +80,7 @@ class Game:
         self.loot_reveal_index = 0
         self.pending_floor_number: int | None = None
         self.floor_completion_summary: dict = {}
+        self.current_combat_tier = "standard"
         self.previous_state_before_inventory = GameState.PLAYING
         self.selected_settings_index = 0
         self.run_summary_reason = "Run summary"
@@ -749,6 +750,29 @@ class Game:
         elif key == pygame.K_ESCAPE:
             self.state = GameState.PLAYING
 
+    def _item_icon(self, item: dict) -> pygame.Surface | None:
+        if not item:
+            return None
+        return self.assets.item_icon(str(item.get("type", "")).lower())
+
+    def _blit_centered_image(self, image: pygame.Surface | None, rect: pygame.Rect, pad: int = 6) -> None:
+        if image is None:
+            return
+        target = rect.inflate(-pad * 2, -pad * 2)
+        if target.width <= 0 or target.height <= 0:
+            return
+        iw, ih = image.get_width(), image.get_height()
+        if iw <= 0 or ih <= 0:
+            return
+        scale = min(target.width / iw, target.height / ih)
+        size = (max(1, int(iw * scale)), max(1, int(ih * scale)))
+        scaled = pygame.transform.smoothscale(image, size)
+        self.screen.blit(scaled, scaled.get_rect(center=rect.center))
+
+    def _current_enemy_portrait(self) -> pygame.Surface | None:
+        tier = getattr(self, "current_combat_tier", "standard")
+        return self.assets.enemy_portrait(tier) or self.assets.enemy_portrait("standard")
+
     def draw_hp_bar(self, rect: pygame.Rect, current: int, maximum: int, fill_color: tuple[int, int, int]) -> None:
         maximum = max(1, int(maximum))
         current = max(0, min(int(current), maximum))
@@ -765,6 +789,12 @@ class Game:
         if not self.player or not self.floor or not self.run_data:
             return
         room = self.floor.rooms[self.player.current_room_id]
+        if is_boss:
+            self.current_combat_tier = "boss"
+        elif room.room_type == "Mini-Boss":
+            self.current_combat_tier = "miniboss"
+        else:
+            self.current_combat_tier = "standard"
         if not enemies:
             room.cleared = True
             self.log.add("The room was supposed to contain violence, but scheduling lost the creature.")
@@ -1308,9 +1338,9 @@ class Game:
         pygame.draw.rect(self.screen, COLORS["bg"], portrait_rect, border_radius=8)
         pygame.draw.rect(self.screen, COLORS["danger"], portrait_rect, width=2, border_radius=8)
         if active:
-            # Portrait-ready placeholder until enemy portrait assets are generated.
-            draw_text(self.screen, self.big_font, "?", portrait_rect.x + 62, portrait_rect.y + 45, COLORS["danger"])
-            draw_text(self.screen, self.small_font, "Enemy Portrait", portrait_rect.x + 22, portrait_rect.y + 114, COLORS["muted"])
+            self._blit_centered_image(self._current_enemy_portrait(), portrait_rect, pad=6)
+            tier_label = getattr(self, "current_combat_tier", "standard").replace("_", " ").title()
+            draw_text(self.screen, self.small_font, tier_label, portrait_rect.x + 34, portrait_rect.y + 126, COLORS["muted"])
 
         y = enemy_rect.y + 58
         for enemy in self.combat.enemies:
@@ -1372,9 +1402,15 @@ class Game:
                     equipped = " [E]"
                 if self.player.equipped_armor is item or (self.player.equipped_armor and self.player.equipped_armor.get("id") == item.get("id") and item.get("type") == "armor"):
                     equipped = " [E]"
+                icon = self._item_icon(item)
+                if icon:
+                    self.screen.blit(icon, (list_rect.x + 22, y - 5))
+                    text_x = list_rect.x + 68
+                else:
+                    text_x = list_rect.x + 28
                 label = f"{idx + 1}. {item.get('name', 'Unknown')}{equipped}"
                 color = COLORS["accent"] if selected else COLORS["text"]
-                draw_text(self.screen, self.small_font, label, list_rect.x + 28, y, color)
+                draw_text(self.screen, self.small_font, label, text_x, y, color)
                 rarity = rarity_label(item)
                 draw_text(self.screen, self.small_font, rarity, list_rect.x + 430, y, COLORS["muted"])
                 y += 34
@@ -1382,6 +1418,10 @@ class Game:
         draw_text(self.screen, self.font, "Details", detail_rect.x + 18, detail_rect.y + 18, COLORS["accent"])
         if self.player.inventory:
             item = self.player.inventory[self.inventory_selection]
+            icon_box = pygame.Rect(detail_rect.x + 24, detail_rect.y + 58, 96, 96)
+            pygame.draw.rect(self.screen, COLORS["bg"], icon_box, border_radius=8)
+            pygame.draw.rect(self.screen, COLORS["accent"], icon_box, width=2, border_radius=8)
+            self._blit_centered_image(self._item_icon(item), icon_box, pad=10)
             y = detail_rect.y + 66
             detail_lines = [
                 item.get("name", "Unknown Item"),
@@ -1394,7 +1434,7 @@ class Game:
             if str(item.get("effect", "")).lower() == "combat_damage":
                 detail_lines.append(f"Combat Damage: {int(item.get('damage', 0) or 0)}")
             for line in detail_lines:
-                draw_text(self.screen, self.small_font, line, detail_rect.x + 28, y, COLORS["text"])
+                draw_text(self.screen, self.small_font, line, detail_rect.x + 140, y, COLORS["text"])
                 y += 28
             y += 8
             draw_wrapped_text(self.screen, self.small_font, item.get("flavor", "No flavor text. Suspicious."), pygame.Rect(detail_rect.x + 28, y, detail_rect.width - 56, 110), COLORS["muted"])
@@ -1402,6 +1442,7 @@ class Game:
             draw_text(self.screen, self.small_font, "Selected summary:", detail_rect.x + 28, y, COLORS["accent"])
             y += 28
             draw_wrapped_text(self.screen, self.small_font, item_summary(item), pygame.Rect(detail_rect.x + 28, y, detail_rect.width - 56, 80), COLORS["text"])
+
 
         controls = "Up/Down: select | Enter/E: equip or use | I/Esc: return"
         draw_text(self.screen, self.font, controls, help_rect.x + 24, help_rect.y + 22, COLORS["text"])
@@ -1436,7 +1477,13 @@ class Game:
                 if selected:
                     pygame.draw.rect(self.screen, COLORS["button_hover"], row, border_radius=6)
                 color = COLORS["text"] if affordable else COLORS["muted"]
-                draw_text(self.screen, self.small_font, item.get("name", "Unknown Item"), row.x + 12, row.y + 9, COLORS["accent"] if selected else color)
+                icon = self._item_icon(item)
+                if icon:
+                    self.screen.blit(icon, (row.x + 6, row.y + 0))
+                    text_x = row.x + 54
+                else:
+                    text_x = row.x + 12
+                draw_text(self.screen, self.small_font, item.get("name", "Unknown Item"), text_x, row.y + 9, COLORS["accent"] if selected else color)
                 draw_text(self.screen, self.small_font, rarity_label(item), row.x + 360, row.y + 9, color)
                 draw_text(self.screen, self.small_font, f"{item_price(item)} cr", row.x + 545, row.y + 9, COLORS["gold"] if affordable else COLORS["muted"])
 
@@ -1444,9 +1491,13 @@ class Game:
             detail = pygame.Rect(770, 180, 410, 360)
             pygame.draw.rect(self.screen, COLORS["bg"], detail, border_radius=8)
             pygame.draw.rect(self.screen, COLORS["accent"], detail, width=2, border_radius=8)
+            icon_box = pygame.Rect(detail.x + 22, detail.y + 20, 88, 88)
+            pygame.draw.rect(self.screen, COLORS["panel"], icon_box, border_radius=8)
+            pygame.draw.rect(self.screen, COLORS["accent"], icon_box, width=2, border_radius=8)
+            self._blit_centered_image(self._item_icon(item), icon_box, pad=10)
             y = detail.y + 22
-            draw_text(self.screen, self.font, item.get("name", "Unknown Item"), detail.x + 22, y, COLORS["accent"])
-            y += 38
+            draw_text(self.screen, self.font, item.get("name", "Unknown Item"), detail.x + 122, y, COLORS["accent"])
+            y += 72
             lines = [
                 f"Type: {item.get('type', 'item').title()}",
                 f"Rarity: {rarity_label(item)}",
@@ -1484,7 +1535,7 @@ class Game:
         icon_box = pygame.Rect(popup.x + 330, popup.y + 130, 160, 160)
         pygame.draw.rect(self.screen, COLORS["bg"], icon_box, border_radius=10)
         pygame.draw.rect(self.screen, COLORS["gold"], icon_box, width=2, border_radius=10)
-        draw_text(self.screen, self.big_font, "?", icon_box.x + 66, icon_box.y + 47, COLORS["gold"])
+        self._blit_centered_image(self._item_icon(item), icon_box, pad=12)
 
         y = popup.y + 320
         draw_text(self.screen, self.font, item.get("name", "Unknown Item"), popup.x + 70, y, COLORS["accent"])

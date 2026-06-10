@@ -6,7 +6,7 @@ import requests
 
 
 class OllamaClient:
-    def __init__(self, model: str, base_url: str = "http://localhost:11434", timeout: int = 45, enabled: bool = True):
+    def __init__(self, model: str, base_url: str = "http://127.0.0.1:11434", timeout: int = 90, enabled: bool = True):
         self.model = model
         self.base_url = base_url.rstrip("/")
         self.timeout = timeout

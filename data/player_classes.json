@@ -59,10 +59,10 @@
     "id": "it_department_survivor",
     "name": "IT Department Survivor",
     "description": "Survived printer drivers, password resets, and now whatever this is.",
-    "hp": 30,
-    "attack": 5,
-    "defense": 2,
-    "luck": 3,
+    "hp": 70,
+    "attack": 8,
+    "defense": 8,
+    "luck": 8,
     "starting_items": [
       "stapler_of_minor_regret",
       "expired_energy_drink"

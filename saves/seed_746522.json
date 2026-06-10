@@ -1,0 +1,607 @@
+{
+  "seed": 746522,
+  "player": {
+    "name": "Crawler",
+    "player_class": "IT Department Survivor",
+    "class_id": "it_department_survivor",
+    "class_description": "Survived printer drivers, password resets, and now whatever this is.",
+    "special_ability": "Have You Tried Rebooting It: balanced stats with extra luck.",
+    "level": 3,
+    "xp": 43,
+    "hp": 82,
+    "max_hp": 82,
+    "attack": 10,
+    "defense": 9,
+    "luck": 9,
+    "credits": 91,
+    "rooms_cleared": 4,
+    "items_found": 6,
+    "traps_survived": 0,
+    "defeated_bosses": [
+      "president_of_the_hoa"
+    ],
+    "current_room_id": "room_13",
+    "inventory": [
+      {
+        "id": "varsity_pad_armor",
+        "name": "Varsity Pad Armor",
+        "type": "armor",
+        "rarity": "uncommon",
+        "defense_bonus": 3,
+        "attack_bonus": 1,
+        "effect": "school_spirit",
+        "flavor": "Smells like grass stains and unresolved rivalries."
+      },
+      {
+        "id": "mystery_meat_burrito",
+        "name": "Mystery Meat Burrito",
+        "type": "consumable",
+        "rarity": "common",
+        "heal": 14,
+        "effect": "heal",
+        "flavor": "The mystery is legally protected."
+      },
+      {
+        "id": "mystery_meat_burrito",
+        "name": "Mystery Meat Burrito",
+        "type": "consumable",
+        "rarity": "common",
+        "heal": 14,
+        "effect": "heal",
+        "flavor": "The mystery is legally protected."
+      },
+      {
+        "id": "survey_coupon_stack",
+        "name": "Survey Coupon Stack",
+        "type": "trinket",
+        "rarity": "common",
+        "luck_bonus": 1,
+        "effect": "feedback_loop",
+        "flavor": "Worth five percent off pain."
+      },
+      {
+        "id": "churro_shiv",
+        "name": "Churro Shiv",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "cinnamon_cut",
+        "flavor": "Crunchy, sweet, and inadmissible in court."
+      },
+      {
+        "id": "lanyard_whip",
+        "name": "Lanyard Whip",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "luck_bonus": 1,
+        "effect": "badge_slap",
+        "flavor": "The plastic sleeve leaves a mark."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      }
+    ],
+    "equipped_weapon": null,
+    "equipped_armor": {
+      "id": "varsity_pad_armor",
+      "name": "Varsity Pad Armor",
+      "type": "armor",
+      "rarity": "uncommon",
+      "defense_bonus": 3,
+      "attack_bonus": 1,
+      "effect": "school_spirit",
+      "flavor": "Smells like grass stains and unresolved rivalries."
+    },
+    "status_effects": []
+  },
+  "current_floor": 1,
+  "floors": {
+    "1": {
+      "floor_number": 1,
+      "theme": {
+        "id": "retirement_village_raid",
+        "name": "Retirement Village Raid Night",
+        "tone": "suburban elder chaos",
+        "description": "Golf carts prowl the streets, bingo cards whisper coordinates, and the early-bird special is armed.",
+        "enemy_tags": [
+          "retirement",
+          "hoa",
+          "golf",
+          "vermin",
+          "security"
+        ],
+        "trap_tags": [
+          "golf_cart",
+          "bingo",
+          "lawn",
+          "bylaw",
+          "buffet"
+        ],
+        "boss_tags": [
+          "retirement",
+          "hoa"
+        ],
+        "loot_bias": [
+          "snacks",
+          "tools",
+          "medical",
+          "absurd"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 1. The broadcast lights ignite over Retirement Village Raid Night.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Overbooked Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "valet_wight",
+              "name": "Valet Wight",
+              "hp": 20,
+              "attack": 6,
+              "defense": 2,
+              "xp": 14,
+              "tags": [
+                "parking",
+                "security",
+                "undead"
+              ],
+              "abilities": [
+                "keys_forever"
+              ],
+              "flavor": "It lost your car and found religion in the glovebox."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Haunted Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Flickering Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "bylaw_pressure_plate",
+            "name": "Bylaw Pressure Plate",
+            "difficulty": 14,
+            "damage": 8,
+            "tags": [
+              "bylaw",
+              "hoa",
+              "sewer"
+            ],
+            "flavor": "A fine print rune glows under your boot."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Sanitized Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "unionized_goblin_checkpoint",
+            "name": "Unionized Goblin Checkpoint",
+            "type": "NPC Event",
+            "outcomes": [
+              "The goblins demand safer stabbing conditions and offer directions.",
+              "A shop steward trades you gossip for not being management."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "A shop steward trades you gossip for not being management."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Sanitized Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Flickering Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "early_bird_vulture",
+              "name": "Early-Bird Vulture",
+              "hp": 18,
+              "attack": 6,
+              "defense": 1,
+              "xp": 12,
+              "tags": [
+                "retirement",
+                "bird",
+                "snacks"
+              ],
+              "abilities": [
+                "buffet_pick"
+              ],
+              "flavor": "It circles any entr\u00e9e placed before 4:30 PM."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Suspicious Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "soft_serve_plasma",
+              "name": "Soft Serve Plasma",
+              "type": "consumable",
+              "rarity": "rare",
+              "damage": 20,
+              "effect": "combat_damage",
+              "flavor": "Comes out of the machine screaming."
+            },
+            {
+              "id": "churro_shiv",
+              "name": "Churro Shiv",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "cinnamon_cut",
+              "flavor": "Crunchy, sweet, and inadmissible in court."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "The shopkeeper accepts credits, teeth, and positive survey results."
+          },
+          "cleared": false,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Discount Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "carryon_gnawer",
+              "name": "Mini-Boss Carry-On Gnawer",
+              "hp": 28,
+              "attack": 7,
+              "defense": 3,
+              "xp": 24,
+              "tags": [
+                "airport",
+                "luggage",
+                "vermin"
+              ],
+              "abilities": [
+                "overhead_compartment"
+              ],
+              "flavor": "Somehow still fits under the seat."
+            }
+          ],
+          "loot": [
+            {
+              "id": "smart_toaster_shrapnel",
+              "name": "Smart Toaster Shrapnel",
+              "type": "consumable",
+              "rarity": "uncommon",
+              "damage": 17,
+              "effect": "combat_damage",
+              "flavor": "Pairs with jam and emergency surgery."
+            },
+            {
+              "id": "parking_gate_glaive",
+              "name": "Parking Gate Glaive",
+              "type": "weapon",
+              "rarity": "rare",
+              "attack_bonus": 5,
+              "defense_bonus": 1,
+              "effect": "validated_strike",
+              "flavor": "Raises slowly, falls with purpose."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Condemned Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "bylaw_pressure_plate",
+            "name": "Bylaw Pressure Plate",
+            "difficulty": 14,
+            "damage": 8,
+            "tags": [
+              "bylaw",
+              "hoa",
+              "sewer"
+            ],
+            "flavor": "A fine print rune glows under your boot."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Suspicious Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        }
+      },
+      "boss": {
+        "id": "president_of_the_hoa",
+        "name": "President of the HOA Below",
+        "hp": 92,
+        "attack": 10,
+        "defense": 5,
+        "xp": 48,
+        "abilities": [
+          "lien_slam",
+          "grass_height_violation"
+        ],
+        "floor_theme_tags": [
+          "sewer",
+          "hoa"
+        ],
+        "flavor": "Rules from the depths, fines from the soul."
+      },
+      "lore": {
+        "title": "Retirement Village Rampage",
+        "intro": "Welcome to Retirement Village Raid Night, where the only thing more plentiful than walkers is the bodies of their owners! We've got bingo-wielding pensioners, golf cart-fleeing seniors, and a cast of characters that will make you wonder how they survived this long. It's like a game of ' Musical Chairs'... but with fewer chairs and more bullets.",
+        "description": "You find yourself trapped in the abandoned Oakwood Estates Retirement Community, where the only thing more deadly than the stairs is the early-bird special. The once-peaceful streets are now a battleground, littered with the wreckage of golf carts and the discarded bingo cards that whispered their last coordinates to the doomed. The President of the HOA Below has declared all-out war on any living creature brave (or foolhardy) enough to enter.",
+        "warning": "Don't say we didn't warn you: this floor is full of seniors with attitude, golf carts with a bad habit of running over things, and an Early-Bird Vulture who's not as cute as it sounds. You've been warned.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "\"Welcome, unwashed masses, to the esteemed residence of our beloved President of the HOA Below! (dramatic organ music swells)\n\nMeet the linchpin of our lovely retirement village's bureaucratic nightmare, Reginald P. Bottomsworth III, Esq.! *adjusts monocle*\n\nWith a tongue sharper than any garden gnome's pruning shears and a wit as dry as the desert sand beneath his designer loafer-clad feet, Reggie has single-handedly turned our peaceful community into a war zone of petty squabbles and overgrown bushes.\n\nFor too long, he's been stifling your creative expression, imposing arbitrary rules on your leisure time, and judging your garden gnome arrangements. Well, those days are over! Tonight, you get to storm the Bastille... of beige stucco and faded welcome mats!\n\nSo, rebels, what do you say? Are you ready to put an end to Reggie's reign of terror? Or will he continue to rule with an iron fist \u2013 and a sternly worded letter from his lawyer?\"\n\n Organ music reaches a cresc",
+        "sponsor_message": "\"Are you tired of mere courage? Want to take your fear to the next level? Look no further than PanicPlus Premium's Subscription-Based Courage! For just $9.99/month, you'll get a steady supply of debilitating anxiety and existential dread. Our expert team of couragistas will deliver a daily dose of worry and unease directly to your doorstep. Side effects may include insomnia, irrational decisions, or spontaneous combustion (results not guaranteed). Don't settle for ordinary bravery \u2013 upgrade to PanicPlus Premium today!\"",
+        "sponsor": {
+          "id": "panic_plus",
+          "name": "PanicPlus Premium",
+          "product": "Subscription-Based Courage"
+        },
+        "victory_recap": "\"Another successful raid night, folks! Crawler, our IT Department Survivor extraordinaire, has conquered Floor 1 - the Retirement Village Raid Night with ease (well, relatively speaking). The President of the HOA Below, a formidable foe with an endless supply of complaining letters and petty fines, fell to Crawler's mastery of keyboard shortcuts and rage quitting.\n\nWith their trusty mouse as a shield and a well-timed Ctrl+Alt+Del, Crawler dodged the President's ' Mandatory Bingo Night' special attack and emerged victorious. The village elders are no doubt trembling in fear... or at least, grumbling about the noise. On to Floor 2: the dreaded DMV Dungeon!\""
+      },
+      "generated_by_ollama": true
+    }
+  },
+  "settings": {
+    "fullscreen": false,
+    "autosave": true,
+    "difficulty": "normal",
+    "ui_theme": "hazard",
+    "ollama_enabled": true,
+    "ollama_base_url": "http://127.0.0.1:11434",
+    "ollama_model": "llama3.1:8b",
+    "text_generation_timeout": 90,
+    "text_speed": "normal",
+    "music_volume": 0.5,
+    "sound_volume": 0.7
+  },
+  "run_history": []
+}

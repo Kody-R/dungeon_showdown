@@ -54,6 +54,19 @@ class AssetManager:
         "mascot_handler": "class_mascot_handler_portrait.png",
     }
 
+    ITEM_ICON_FILES = {
+        "weapon": "item_weapon.png",
+        "armor": "item_armor.png",
+        "consumable": "item_consumable.png",
+        "trinket": "item_trinket.png",
+    }
+
+    DEFAULT_ENEMY_PORTRAIT_FILES = {
+        "standard": "default_enemy.png",
+        "miniboss": "default_miniboss.png",
+        "boss": "default_boss.png",
+    }
+
     UI_FILES = {
         "logo": "logo_dungeon_showdown.png",
         "title_bg": "bg_title_screen.png",
@@ -70,14 +83,19 @@ class AssetManager:
         self.ui_dir = self.asset_dir / "ui"
         self.icon_dir = self.asset_dir / "icons"
         self.class_icon_dir = self.icon_dir / "classes"
+        self.item_icon_dir = self.icon_dir / "items"
         self.class_portrait_dir = self.asset_dir / "portraits" / "classes"
+        self.enemy_portrait_dir = self.asset_dir / "portraits" / "enemies"
+        self.boss_portrait_dir = self.asset_dir / "portraits" / "bosses"
         self.sprite_dir = self.asset_dir / "sprites"
         self.legacy_icon_dir = self.sprite_dir / "icons"
 
         self.icons: dict[str, pygame.Surface] = {}
         self.generic_icons: dict[str, pygame.Surface] = {}
         self.class_icons: dict[str, pygame.Surface] = {}
+        self.item_icons: dict[str, pygame.Surface] = {}
         self.class_portraits: dict[str, pygame.Surface] = {}
+        self.enemy_portraits: dict[str, pygame.Surface] = {}
         self.ui_images: dict[str, pygame.Surface] = {}
         self._scaled_cache: dict[tuple[str, int, int], pygame.Surface] = {}
         self._build_fallback_icons()
@@ -85,6 +103,8 @@ class AssetManager:
         self._load_optional_icons()
         self._load_optional_generic_icons()
         self._load_optional_class_assets()
+        self._load_optional_item_icons()
+        self._load_optional_enemy_portraits()
 
     def _safe_load_image(self, path: Path) -> pygame.Surface | None:
         if not path.exists():
@@ -156,6 +176,31 @@ class AssetManager:
             pygame.draw.circle(surf, COLORS["bg"], (11, 11), 9, 2)
             self.icons[name] = surf
 
+        # Simple fallback item icons when generated art is missing.
+        for key, color in {
+            "weapon": COLORS["danger"],
+            "armor": COLORS["good"],
+            "consumable": COLORS["accent"],
+            "trinket": COLORS["gold"],
+        }.items():
+            surf = pygame.Surface((38, 38), pygame.SRCALPHA)
+            pygame.draw.rect(surf, color, pygame.Rect(5, 5, 28, 28), border_radius=6)
+            pygame.draw.rect(surf, COLORS["bg"], pygame.Rect(5, 5, 28, 28), 2, border_radius=6)
+            self.item_icons[key] = surf
+
+        # Simple fallback portraits if the project images are missing.
+        for key, color in {
+            "standard": COLORS["danger"],
+            "miniboss": COLORS["accent"],
+            "boss": COLORS["gold"],
+        }.items():
+            surf = pygame.Surface((220, 220), pygame.SRCALPHA)
+            pygame.draw.rect(surf, COLORS["panel"], pygame.Rect(0, 0, 220, 220), border_radius=12)
+            pygame.draw.rect(surf, color, pygame.Rect(6, 6, 208, 208), 4, border_radius=12)
+            pygame.draw.circle(surf, color, (110, 88), 36)
+            pygame.draw.rect(surf, color, pygame.Rect(68, 132, 84, 44), border_radius=10)
+            self.enemy_portraits[key] = surf
+
         credit = pygame.Surface((24, 24), pygame.SRCALPHA)
         pygame.draw.circle(credit, COLORS["gold"], (12, 12), 10)
         pygame.draw.circle(credit, COLORS["bg"], (12, 12), 10, 2)
@@ -198,6 +243,19 @@ class AssetManager:
             if image:
                 self.class_portraits[key] = pygame.transform.smoothscale(image, (290, 290))
 
+    def _load_optional_item_icons(self) -> None:
+        for key, filename in self.ITEM_ICON_FILES.items():
+            image = self._safe_load_image(self.item_icon_dir / filename)
+            if image:
+                self.item_icons[key] = pygame.transform.smoothscale(image, (38, 38))
+
+    def _load_optional_enemy_portraits(self) -> None:
+        for key, filename in self.DEFAULT_ENEMY_PORTRAIT_FILES.items():
+            base_dir = self.boss_portrait_dir if key == "boss" else self.enemy_portrait_dir
+            image = self._safe_load_image(base_dir / filename)
+            if image:
+                self.enemy_portraits[key] = image
+
     def icon(self, room_type: str) -> pygame.Surface | None:
         return self.icons.get(room_type)
 
@@ -209,6 +267,12 @@ class AssetManager:
 
     def class_portrait(self, key: str) -> pygame.Surface | None:
         return self.class_portraits.get(key)
+
+    def item_icon(self, key: str) -> pygame.Surface | None:
+        return self.item_icons.get(key)
+
+    def enemy_portrait(self, key: str) -> pygame.Surface | None:
+        return self.enemy_portraits.get(key)
 
     def ui(self, key: str) -> pygame.Surface | None:
         return self.ui_images.get(key)

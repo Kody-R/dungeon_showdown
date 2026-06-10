@@ -1,0 +1,612 @@
+{
+  "seed": 442055,
+  "player": {
+    "name": "Crawler",
+    "player_class": "IT Department Survivor",
+    "class_id": "it_department_survivor",
+    "class_description": "Survived printer drivers, password resets, and now whatever this is.",
+    "special_ability": "Have You Tried Rebooting It: balanced stats with extra luck.",
+    "level": 1,
+    "xp": 0,
+    "hp": 70,
+    "max_hp": 70,
+    "attack": 8,
+    "defense": 8,
+    "luck": 8,
+    "credits": 25,
+    "rooms_cleared": 0,
+    "items_found": 0,
+    "traps_survived": 0,
+    "defeated_bosses": [],
+    "current_room_id": "room_0",
+    "inventory": [
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      },
+      {
+        "id": "expired_energy_drink",
+        "name": "Expired Energy Drink",
+        "type": "consumable",
+        "rarity": "common",
+        "attack_bonus": 0,
+        "defense_bonus": 0,
+        "heal": 8,
+        "effect": "heal",
+        "flavor": "It tastes like battery acid got a marketing degree."
+      }
+    ],
+    "equipped_weapon": null,
+    "equipped_armor": null,
+    "status_effects": []
+  },
+  "current_floor": 1,
+  "floors": {
+    "1": {
+      "floor_number": 1,
+      "theme": {
+        "id": "parking_garage_depths",
+        "name": "Parking Garage Depths of Zone F",
+        "tone": "concrete echo dread comedy",
+        "description": "A spiraling garage where every level is F, the ticket machine is hungry, and headlights follow from below.",
+        "enemy_tags": [
+          "parking",
+          "security",
+          "car",
+          "trash",
+          "mutant"
+        ],
+        "trap_tags": [
+          "parking",
+          "gate_arm",
+          "oil",
+          "elevator",
+          "ticket"
+        ],
+        "boss_tags": [
+          "parking",
+          "security"
+        ],
+        "loot_bias": [
+          "tools",
+          "junk",
+          "sponsor",
+          "improvised_weapons"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 1. The broadcast lights ignite over Parking Garage Depths of Zone F.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Overbooked Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "doorbell_drone",
+              "name": "Doorbell Drone",
+              "hp": 17,
+              "attack": 6,
+              "defense": 2,
+              "xp": 12,
+              "tags": [
+                "smart_home",
+                "tech",
+                "security"
+              ],
+              "abilities": [
+                "porch_pirate_alarm"
+              ],
+              "flavor": "It records everything, including your declining confidence."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Condemned Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "mascot_whistle",
+              "name": "Mascot Whistle",
+              "type": "trinket",
+              "rarity": "uncommon",
+              "attack_bonus": 1,
+              "defense_bonus": 0,
+              "luck_bonus": 1,
+              "effect": "crowd_work",
+              "flavor": "Only some of the things that answer are mascots."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Overbooked Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "hostile_moving_walkway",
+            "name": "Hostile Moving Walkway",
+            "difficulty": 12,
+            "damage": 7,
+            "tags": [
+              "airport",
+              "moving_walkway"
+            ],
+            "flavor": "It moves you toward consequences."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Sanitized Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "tiny_umbrella_of_luck",
+              "name": "Tiny Umbrella of Luck",
+              "type": "trinket",
+              "rarity": "uncommon",
+              "luck_bonus": 2,
+              "effect": "vacation_energy",
+              "flavor": "Makes any drink legally tactical."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "quarter_slot_oracle",
+            "name": "Quarter Slot Oracle",
+            "type": "NPC Event",
+            "outcomes": [
+              "A coin slot predicts your future in exact change.",
+              "The oracle demands quarters and dispenses a prophecy about stains."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "A coin slot predicts your future in exact change."
+          },
+          "cleared": false,
+          "visited": false
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Premium Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "potluck_casserole_square",
+              "name": "Potluck Casserole Square",
+              "type": "consumable",
+              "rarity": "uncommon",
+              "heal": 18,
+              "effect": "heal",
+              "flavor": "Nobody knows who brought it. Everybody respects it."
+            },
+            {
+              "id": "lanyard_whip",
+              "name": "Lanyard Whip",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "luck_bonus": 1,
+              "effect": "badge_slap",
+              "flavor": "The plastic sleeve leaves a mark."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Unauthorized Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "cosplay_hydra",
+              "name": "Cosplay Hydra",
+              "hp": 30,
+              "attack": 8,
+              "defense": 2,
+              "xp": 20,
+              "tags": [
+                "convention",
+                "mascot",
+                "mutant"
+              ],
+              "abilities": [
+                "prop_weapon_actual"
+              ],
+              "flavor": "Every head insists it is the canon version."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Haunted Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "stapler_of_minor_regret",
+              "name": "Stapler of Minor Regret",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Mostly for paperwork. Occasionally for goblins."
+            },
+            {
+              "id": "clipboard_cleaver",
+              "name": "Clipboard Cleaver",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "forms_in_triplicate",
+              "flavor": "Cuts, clips, and requests your insurance card."
+            },
+            {
+              "id": "detention_slip_fan",
+              "name": "Detention Slip Fan",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 1,
+              "effect": "paperstorm",
+              "flavor": "A thousand minor infractions, folded into violence."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "parking_validation_desk",
+            "name": "Parking Validation Desk",
+            "type": "Shop",
+            "outcomes": [
+              "The attendant validates purchases, parking, and mild panic.",
+              "A tiny bell summons commerce from the concrete dark."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "A tiny bell summons commerce from the concrete dark."
+          },
+          "cleared": false,
+          "visited": false
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Discount Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "doorbell_drone",
+              "name": "Mini-Boss Doorbell Drone",
+              "hp": 28,
+              "attack": 8,
+              "defense": 3,
+              "xp": 24,
+              "tags": [
+                "smart_home",
+                "tech",
+                "security"
+              ],
+              "abilities": [
+                "porch_pirate_alarm"
+              ],
+              "flavor": "It records everything, including your declining confidence."
+            }
+          ],
+          "loot": [
+            {
+              "id": "stapler_of_minor_regret",
+              "name": "Stapler of Minor Regret",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Mostly for paperwork. Occasionally for goblins."
+            },
+            {
+              "id": "lost_ticket_talisman",
+              "name": "Lost Ticket Talisman",
+              "type": "trinket",
+              "rarity": "uncommon",
+              "luck_bonus": 2,
+              "effect": "where_did_i_park",
+              "flavor": "You owe forty credits, spiritually."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Discount Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "mandatory_meeting_circle",
+            "name": "Mandatory Meeting Circle",
+            "difficulty": 12,
+            "damage": 6,
+            "tags": [
+              "meeting",
+              "office"
+            ],
+            "flavor": "You lose minutes of your life and possibly blood."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Sanitized Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "lanyard_whip",
+              "name": "Lanyard Whip",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "luck_bonus": 1,
+              "effect": "badge_slap",
+              "flavor": "The plastic sleeve leaves a mark."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        }
+      },
+      "boss": {
+        "id": "zone_f_attendant",
+        "name": "Zone F Attendant",
+        "hp": 94,
+        "attack": 11,
+        "defense": 6,
+        "xp": 50,
+        "abilities": [
+          "validate_this",
+          "gate_arm_guillotine"
+        ],
+        "floor_theme_tags": [
+          "parking",
+          "security"
+        ],
+        "flavor": "It knows where you parked. It will never tell you."
+      },
+      "lore": {
+        "title": "Emergency Dungeon Broadcast",
+        "intro": "The dungeon's narration system coughs, sparks, and begins reading from a laminated card.",
+        "description": "This floor smells like danger, mildew, and unpaid overtime.",
+        "warning": "Try not to die. It creates scheduling issues.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": false,
+        "generated_once": true,
+        "generation_error": "HTTPConnectionPool(host='127.0.0.1', port=11434): Read timed out. (read timeout=90)",
+        "boss_intro": "\"Ladies and gentlemen, welcome to the Parking Garage Depths of Zone F! Where the dreams go to die, and the parking fees are to kill... your soul. And now, put your hands together for the one being who's been tasked with making sure you don't escape this endless cycle of despair: the illustrious, the incomparable, the unutterably tragic... Zone F Attendant!\n\nThis mastermind of malaise has spent eons perfecting the art of monotony, of crushing hope, and of collecting parking tickets. With an arsenal of sass, sarcasm, and bureaucratic red tape, they'll stop at nothing to ensure your stay in Zone F is as long as possible.\n\nSo, brave adventurer, if you think you can outrun the abyssal depths of paperwork, outsmart the despairing gaze of our hero, or outlast the oppressive silence of this parking garage... Well, we just can't wait to see you try. Let's get this over with. Zone F Attendant, put your ticket-stamping skills on display!\"",
+        "sponsor_message": "\"Attention contestants! Are you ready to take on the treacherous tunnels of 'Dungeon Delirium'? Look no further than FloorPal Navigation's Maps That Admit Nothing! Our maps are expertly crafted to show you exactly where to go... or maybe they'll just, uh, 'suggest' a general direction. Either way, it's fun for everyone (except the contestants who end up in the pit of despair)! Thanks to FloorPal Navigation, contestants will experience even more excitement, confusion, and possible demise. It's a winning combination!\"",
+        "sponsor": {
+          "id": "floorpal",
+          "name": "FloorPal Navigation",
+          "product": "Maps That Admit Nothing"
+        }
+      },
+      "generated_by_ollama": false
+    }
+  },
+  "settings": {
+    "fullscreen": false,
+    "autosave": true,
+    "difficulty": "normal",
+    "ui_theme": "hazard",
+    "ollama_enabled": true,
+    "ollama_base_url": "http://127.0.0.1:11434",
+    "ollama_model": "llama3.1:8b",
+    "text_generation_timeout": 90,
+    "text_speed": "normal",
+    "music_volume": 0.5,
+    "sound_volume": 0.7
+  },
+  "run_history": []
+}
