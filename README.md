@@ -1,190 +1,738 @@
-# Dungeon Showdown - Phase 8 Prototype
+# Dungeon Showdown
 
-Original dark-comedy roguelike framework for a chaotic televised dungeon crawler. Core gameplay is deterministic Python; Ollama is used only for flavor/lore and has safe fallbacks.
+**Dungeon Showdown** is a local-first Python/Pygame dungeon crawler about surviving a televised corporate-apocalypse dungeon full of traps, loot, bad sponsors, strange contestants, and deeply unsafe room design.
 
-## Run
+The game mixes deterministic roguelike-style gameplay with optional local AI-generated flavor text through **Ollama**. Python controls the actual game mechanics. Ollama is used only for lore, broadcasts, boss intros, sponsor messages, death recaps, and other immersion text.
+
+No external servers are required to play.
+
+---
+
+## Current Status
+
+Dungeon Showdown is currently a playable prototype with:
+
+* Pygame-based UI
+* class selection
+* seed-based floor generation
+* room-to-room exploration
+* directional map movement
+* turn-based combat
+* inventory and equipment
+* healing items
+* combat consumables
+* shops
+* loot reveal screens
+* boss fights
+* floor completion summaries
+* optional Ollama-powered generated lore
+* generated UI and placeholder art assets
+
+The project is still in active development.
+
+---
+
+## Screenshots
+
+Add screenshots here once you capture them:
+
+```md
+![Main Menu](docs/screenshots/main_menu.png)
+![Class Select](docs/screenshots/class_select.png)
+![Combat](docs/screenshots/combat.png)
+![Inventory](docs/screenshots/inventory.png)
+```
+
+---
+
+## Features
+
+### Dungeon Exploration
+
+Each run uses a seed to generate dungeon floors with connected rooms. Rooms can include:
+
+* Combat
+* Trap
+* Loot
+* Sponsor Crate
+* Shop
+* Rest
+* NPC Event
+* Mini-Boss
+* Boss Gate
+* Boss Room
+* Exit
+
+Movement is based on the visible map layout.
+
+```text
+W / Up       Move North
+D / Right    Move East
+S / Down     Move South
+A / Left     Move West
+Mouse        Click highlighted connected rooms
+Enter        Interact with current room
+I            Open inventory
+C            Character/status log
+Esc          Menu/back
+```
+
+---
+
+## Classes
+
+The game includes several playable class templates, each with different starting stats, special flavor, and starting items.
+
+Current class examples:
+
+* Scrapper
+* Former Mall Cop
+* Failed Magician
+* Lunch Lady Avenger
+* IT Department Survivor
+* Mascot Handler
+
+Classes are defined in:
+
+```text
+data/player_classes.json
+```
+
+---
+
+## Combat
+
+Combat is turn-based and uses player stats, enemy stats, equipment bonuses, status effects, and item effects.
+
+Combat controls:
+
+```text
+A / Enter / Space   Attack
+D                   Defend
+F                   Flee
+I                   Open inventory
+X                   Inspect active enemy
+Esc                 Snark, not escape
+```
+
+Combat supports:
+
+* enemy HP bars
+* player HP bar
+* standard enemy portrait placeholder
+* mini-boss portrait placeholder
+* boss portrait placeholder
+* critical hits
+* defense turns
+* flee attempts
+* combat item use
+* enemy retaliation
+* XP rewards
+* credit rewards
+
+---
+
+## Inventory
+
+The inventory supports:
+
+* weapons
+* armor
+* consumables
+* trinkets
+* healing items
+* combat items
+* equipped item indicators
+* item rarity labels
+* item summaries
+* item flavor text
+* default item icons by type
+
+Inventory controls:
+
+```text
+Up / Down            Select item
+Enter / Space / E    Equip or use item
+I / Esc              Return
+```
+
+Current default item icon types:
+
+```text
+assets/icons/items/item_weapon.png
+assets/icons/items/item_armor.png
+assets/icons/items/item_consumable.png
+assets/icons/items/item_trinket.png
+```
+
+---
+
+## Shops
+
+Shop rooms now open an actual shop screen instead of auto-buying items.
+
+Shop features:
+
+* selectable item offers
+* price display
+* rarity display
+* type display
+* effect display
+* affordability checking
+* item icon display
+* manual buying
+
+Shop controls:
+
+```text
+Up / Down            Select item
+Enter / Space / E    Buy selected item
+Esc / I              Leave shop
+```
+
+---
+
+## Loot Reveal Screen
+
+Loot and sponsor crates display a dedicated reveal popup.
+
+Loot reveal includes:
+
+* item icon
+* item name
+* rarity
+* item type
+* effect summary
+* flavor text
+* multiple-item paging
+
+Controls:
+
+```text
+Enter / Space    Continue through loot
+Esc              Continue
+```
+
+---
+
+## Floor Completion
+
+After defeating a boss or reaching an exit, the game displays a floor completion/elevator summary screen.
+
+The summary includes:
+
+* floor number
+* floor theme
+* boss defeated
+* rooms cleared
+* items found
+* current credits
+* next floor prompt
+
+Controls:
+
+```text
+Enter / Space    Continue to next floor
+Esc              Return to current floor
+```
+
+---
+
+## Optional Ollama Integration
+
+Dungeon Showdown can use a locally running Ollama server to generate immersive lore.
+
+Ollama can generate:
+
+* floor titles
+* floor introductions
+* floor warnings
+* boss intros
+* sponsor messages
+* rare loot narration
+* death recaps
+* victory recaps
+
+The default Ollama API endpoint is:
+
+```text
+http://localhost:11434/api/generate
+```
+
+The game also checks installed models through:
+
+```text
+http://localhost:11434/api/tags
+```
+
+If Ollama is unavailable, slow, or disabled, the game falls back to local default text. Gameplay does not depend on Ollama.
+
+---
+
+## Recommended Ollama Models
+
+The game does not require a specific model, but these are good local choices:
+
+```text
+llama3.1:8b
+mistral-nemo
+qwen2.5:7b
+gemma2:9b
+```
+
+You can install a model with:
+
+```bash
+ollama pull llama3.1:8b
+```
+
+Then start Ollama:
+
+```bash
+ollama serve
+```
+
+---
+
+## Installation
+
+### Requirements
+
+* Python 3.10+
+* Pygame
+* Requests
+* Optional: Ollama
+
+---
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/dungeon-showdown.git
+cd dungeon-showdown
+```
+
+---
+
+### Create a Virtual Environment
+
+#### Windows
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+```
+
+#### Linux/macOS
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+---
+
+### Install Dependencies
 
 ```bash
 pip install pygame requests
+```
+
+Or, if a `requirements.txt` file exists:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Run the Game
+
+```bash
 python main.py
 ```
 
-## Phase 8 Adds Polish
-
-Phase 8 builds on the Phase 7 content expansion and focuses on presentation, settings, and run-structure polish:
-
-- Better main menu labeling and improved settings screen.
-- Keyboard-adjustable settings for difficulty, UI theme, Ollama enabled, detected model selection, timeout, volume, fullscreen flag, and autosave flag.
-- Three UI theme presets: Hazard Broadcast, Cold Corporate, and Toxic Neon.
-- Difficulty presets: easy, normal, hard, and nightmare.
-- Difficulty scaling for newly generated floors, including enemy HP/attack and trap difficulty.
-- Credits/currency tracked on the player.
-- Shop rooms now price items and purchase the cheapest affordable offer instead of giving everything away.
-- Combat victories award credits based on room type, XP value, and difficulty.
-- Run summary screen showing seed, floor progress, class, level, credits, rooms cleared, items found, and defeated bosses.
-- Safe optional audio hook through `audio_manager.py`; missing files or missing audio devices do not crash the game.
-- Safe optional sprite/icon hook through `asset_manager.py`; generated fallback icons are used when image files are missing.
-- Player stats now persist additional Phase 8 run metrics.
-
-## Controls
-
-### Main Menu
-
-- Mouse: click buttons
-- Esc: quit/back depending on screen
-
-### Class Selection
-
-- Up / Down: select class
-- Enter / Space: start run with selected class
-- Esc: return to menu
-
-### Settings
-
-- Up / Down: select setting
-- Left / Right or Enter / Space: change selected setting
-- Esc: return to menu
-
-### Exploration
-
-- W / Up: move to connection slot 1
-- D / Right: move to connection slot 2
-- S / Down: move to connection slot 3
-- A / Left: move to connection slot 4
-- Enter: interact/start combat/claim room reward
-- I: inventory
-- C: character summary
-- M: map comment
-- Esc: menu
-
-### Combat
-
-- A / Enter / Space: attack
-- D: defend
-- F: flee, disabled for bosses
-- I: inventory/use item
-- X: inspect active enemy
-- Esc: snark, not escape
-
-### Inventory
-
-- Up / Down: select item
-- Enter / Space / E: equip weapon/armor or use consumable
-- I / Esc: return
-
-## Optional Assets
-
-The game runs without assets, but later packs can use this structure:
-
-```text
-assets/
-├── music/
-├── sounds/
-└── sprites/
-    └── icons/
-```
-
-Audio and icon loading are intentionally defensive. Missing files are ignored.
+---
 
 ## Project Structure
 
 ```text
 dungeon_showdown/
 ├── main.py
-├── config.py
 ├── game.py
+├── config.py
 ├── player.py
 ├── dungeon.py
 ├── floor_generator.py
 ├── combat.py
+├── enemies.py
 ├── inventory.py
 ├── items.py
-├── enemies.py
 ├── save_system.py
 ├── seed_manager.py
 ├── ui.py
-├── ollama_client.py
-├── lore_manager.py
-├── announcer.py
 ├── asset_manager.py
 ├── audio_manager.py
+├── announcer.py
+├── lore_manager.py
+├── ollama_client.py
 ├── run_summary.py
 ├── data/
 │   ├── player_classes.json
-│   ├── enemies.json
-│   ├── items.json
 │   ├── bosses.json
+│   ├── enemies.json
+│   ├── floor_themes.json
+│   ├── items.json
+│   ├── loot_tables.json
 │   ├── rooms.json
 │   ├── sponsors.json
-│   ├── trap_templates.json
-│   ├── floor_themes.json
-│   └── loot_tables.json
-├── saves/
-└── assets/
+│   └── trap_templates.json
+├── assets/
+│   ├── ui/
+│   ├── icons/
+│   │   ├── classes/
+│   │   └── items/
+│   └── portraits/
+│       ├── classes/
+│       ├── enemies/
+│       └── bosses/
+└── saves/
 ```
 
-## Design Rule
+---
 
-The game should feel AI-enhanced, not AI-dependent. Enemy stats, item effects, combat math, floor graph generation, trap checks, class stats, difficulty scaling, shops, and save files are all Python-controlled. Ollama only generates saved narrative flavor.
+## Data Files
 
-## Phase 8 Asset Pack Integration
+Most of the game content is data-driven through JSON files.
 
-This build includes the first generated visual asset pack and the loader changes needed to use it.
+### `data/items.json`
 
-New folders:
+Defines:
+
+* weapons
+* armor
+* consumables
+* trinkets
+* healing items
+* combat items
+* rarity
+* stats
+* effects
+* flavor text
+
+Example item:
+
+```json
+{
+  "id": "printer_toner_grenade",
+  "name": "Printer Toner Grenade",
+  "type": "consumable",
+  "rarity": "uncommon",
+  "damage": 18,
+  "effect": "combat_damage",
+  "flavor": "Explodes into dust, regret, and one final page jam."
+}
+```
+
+---
+
+### `data/enemies.json`
+
+Defines standard enemy templates.
+
+Enemy fields include:
+
+* id
+* name
+* hp
+* attack
+* defense
+* xp
+* tags
+* abilities
+* flavor
+
+---
+
+### `data/bosses.json`
+
+Defines boss templates.
+
+Bosses include:
+
+* larger HP pools
+* stronger attacks
+* floor theme matching tags
+* boss flavor text
+* special abilities
+
+---
+
+### `data/floor_themes.json`
+
+Defines possible floor themes.
+
+Themes affect:
+
+* tone
+* description
+* enemy tag selection
+* boss tag selection
+* trap selection
+* loot bias
+
+---
+
+### `data/rooms.json`
+
+Defines reusable room event templates.
+
+Room events can provide:
+
+* flavor outcomes
+* NPC text
+* shop events
+* random rewards
+* healing events
+* small loot events
+
+---
+
+### `data/sponsors.json`
+
+Defines fake in-game sponsors used for broadcast-style flavor.
+
+---
+
+## Assets
+
+Dungeon Showdown supports generated and custom art assets.
+
+Current asset categories include:
 
 ```text
 assets/ui/
 assets/icons/
+assets/icons/classes/
+assets/icons/items/
+assets/portraits/classes/
+assets/portraits/enemies/
+assets/portraits/bosses/
 ```
 
-Included UI assets:
+Default image fallbacks are included for:
 
 ```text
-assets/ui/logo_dungeon_showdown.png
-assets/ui/bg_title_screen.png
-assets/ui/bg_gameplay_frame.png
-assets/ui/ui_top_bar.png
-assets/ui/ui_right_stats_panel.png
-assets/ui/ui_bottom_log_panel.png
-assets/ui/ui_popup_loot.png
-assets/ui/ui_popup_boss.png
+standard enemies
+mini-bosses
+bosses
+weapons
+armor
+consumables
+trinkets
 ```
 
-Included room icons:
+Current default enemy portrait files:
 
 ```text
-assets/icons/icon_room_entrance.png
-assets/icons/icon_room_combat.png
-assets/icons/icon_room_trap.png
-assets/icons/icon_room_loot.png
-assets/icons/icon_room_boss.png
+assets/portraits/enemies/default_enemy.png
+assets/portraits/enemies/default_miniboss.png
+assets/portraits/bosses/default_boss.png
 ```
 
-`asset_manager.py` now checks `assets/ui` and `assets/icons` first, while keeping the older fallback behavior. If an image is missing or fails to load, the game still uses generated fallback icons/panels and should not crash.
+Current default item icon files:
 
-The main menu now uses the title background and logo when present. The gameplay screen uses the generated top HUD bar, right panel, bottom log panel, and room icons when available.
+```text
+assets/icons/items/item_weapon.png
+assets/icons/items/item_armor.png
+assets/icons/items/item_consumable.png
+assets/icons/items/item_trinket.png
+```
 
+---
 
-## Movement UI Patch
+## Save System
 
-Movement is now directional instead of connection-slot based. The current room's valid exits are shown on the map and side panel, connected rooms are highlighted, and players can click highlighted connected rooms to move.
+Runs are saved locally in:
 
+```text
+saves/
+```
 
-## Heal Item Fix
+The save system stores:
 
-Consumables now support data-driven healing from `items.json` using `effect: heal` and the `heal` value. `heal_and_inspire` also restores HP and applies a temporary attack buff.
+* run seed
+* player data
+* current floor
+* floor data
+* generated lore
+* inventory
+* equipment
+* stats
+* progress
 
+Generated Ollama lore is saved to the run seed file so it does not need to be regenerated every time the run is loaded.
 
-## Combat Item Fix
+---
 
-Consumables with `effect: combat_damage` now work from the inventory while in combat. They target the active enemy, deal their configured `damage`, consume the item, advance the combat turn, and allow enemy retaliation unless the item ends the fight.
+## Settings
 
+The settings screen supports:
 
-## Gameplay Polish Patch
+* UI theme selection
+* difficulty preset
+* Ollama enabled/disabled
+* Ollama model selection
+* generation timeout behavior
 
-Added:
-- Real shop screen with selectable offers, prices, affordability, and item details.
-- Combat HP bars for player and enemies plus a portrait-ready enemy panel.
-- Loot reveal popup screen for room rewards.
-- Floor completion/elevator summary screen after boss clear or exit interaction.
+Current UI theme examples:
+
+```text
+Hazard Broadcast
+Cold Corporate
+Toxic Neon
+```
+
+Current difficulty examples:
+
+```text
+Easy
+Normal
+Hard
+Nightmare
+```
+
+---
+
+## Design Goals
+
+Dungeon Showdown is built around a few core principles:
+
+1. **Python controls all gameplay.**
+   AI text should never determine combat outcomes, loot rolls, enemy stats, or player survival.
+
+2. **Ollama is optional.**
+   The game must work offline and without AI generation.
+
+3. **Seeds should be persistent.**
+   Generated floors and lore should be saved so a run remains consistent.
+
+4. **Content should be data-driven.**
+   Items, enemies, bosses, sponsors, rooms, traps, and floor themes should be easy to expand through JSON.
+
+5. **The tone should be funny, violent, weird, and original.**
+   The game should feel like a corporate death-game broadcast without relying on copyrighted story material.
+
+---
+
+## Roadmap
+
+Planned or possible future upgrades:
+
+* unique enemy portraits
+* unique boss portraits
+* per-item custom icons
+* item category tabs
+* character/status screen redesign
+* boss intro screen with portrait
+* floor transition animations
+* better room transition effects
+* sound effects
+* background music
+* controller support
+* combat targeting for multi-enemy item use
+* status effect icons
+* animated damage/heal feedback
+* more room event types
+* more floor themes
+* more sponsor events
+* expanded announcer commentary
+* build scripts for Windows releases
+
+---
+
+## Known Limitations
+
+Current prototype limitations:
+
+* enemy portraits are still defaults by tier
+* item icons are defaults by item type
+* combat item targeting currently hits the active enemy
+* some UI screens are still being polished
+* audio support is optional and may not include full sound assets yet
+* balance is still experimental
+* generated lore quality depends on the local Ollama model used
+
+---
+
+## Development Notes
+
+This project is designed to be expanded in phases.
+
+When adding new content, prefer editing JSON files first:
+
+```text
+data/items.json
+data/enemies.json
+data/bosses.json
+data/floor_themes.json
+data/rooms.json
+data/sponsors.json
+data/trap_templates.json
+```
+
+When adding new assets, place them in the appropriate `assets/` subfolder and then wire them through `asset_manager.py`.
+
+---
+
+## Credits
+
+Dungeon Showdown is an original Python/Pygame dungeon crawler prototype.
+
+Game systems, code structure, JSON content, and generated asset concepts were developed as an original project.
+
+This repository does not include copyrighted lore, characters, or story content from any existing book, show, game, or franchise.
+
+---
+
+## License
+
+Choose a license before publishing.
+
+Suggested options:
+
+* MIT License for permissive open-source use
+* GPLv3 if you want derivative projects to stay open-source
+* All Rights Reserved if this is a private/proprietary game project
+
+Example placeholder:
+
+```text
+Copyright (c) 2026 YOUR NAME
+
+License TBD.
+```
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/YOUR-USERNAME/dungeon-showdown.git
+cd dungeon-showdown
+python -m venv .venv
+.venv\Scripts\activate
+pip install pygame requests
+python main.py
+```
+
+For Linux/macOS:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/dungeon-showdown.git
+cd dungeon-showdown
+python3 -m venv .venv
+source .venv/bin/activate
+pip install pygame requests
+python main.py
+```
