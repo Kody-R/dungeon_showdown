@@ -1,0 +1,617 @@
+[
+  {
+    "id": "bulk_sample_thrall",
+    "name": "Bulk Sample Thrall",
+    "hp": 18,
+    "attack": 5,
+    "defense": 2,
+    "xp": 12,
+    "tags": [
+      "warehouse",
+      "retail",
+      "snacks"
+    ],
+    "abilities": [
+      "toothpick_jab"
+    ],
+    "flavor": "It offers one tiny cup of chili and one large cup of consequences."
+  },
+  {
+    "id": "forklift_centaur",
+    "name": "Forklift Centaur",
+    "hp": 28,
+    "attack": 8,
+    "defense": 3,
+    "xp": 19,
+    "tags": [
+      "warehouse",
+      "contractor",
+      "vehicle"
+    ],
+    "abilities": [
+      "pallet_charge"
+    ],
+    "flavor": "Half machine, half liability form, all reverse beeper."
+  },
+  {
+    "id": "membership_skeleton",
+    "name": "Membership Skeleton",
+    "hp": 22,
+    "attack": 6,
+    "defense": 3,
+    "xp": 15,
+    "tags": [
+      "warehouse",
+      "retail",
+      "skeleton"
+    ],
+    "abilities": [
+      "renewal_rattle"
+    ],
+    "flavor": "It died waiting in the returns line and kept the card."
+  },
+  {
+    "id": "animatronic_greeter",
+    "name": "Animatronic Greeter",
+    "hp": 25,
+    "attack": 7,
+    "defense": 3,
+    "xp": 18,
+    "tags": [
+      "theme_park",
+      "animatronic",
+      "security"
+    ],
+    "abilities": [
+      "forced_cheer"
+    ],
+    "flavor": "Its smile track loops even when the jaw comes loose."
+  },
+  {
+    "id": "queue_line_larva",
+    "name": "Queue Line Larva",
+    "hp": 16,
+    "attack": 5,
+    "defense": 1,
+    "xp": 11,
+    "tags": [
+      "theme_park",
+      "queue",
+      "vermin"
+    ],
+    "abilities": [
+      "switchback_squirm"
+    ],
+    "flavor": "Born in a ninety-minute wait and raised on churro dust."
+  },
+  {
+    "id": "sweaty_mascot_shell",
+    "name": "Sweaty Mascot Shell",
+    "hp": 24,
+    "attack": 7,
+    "defense": 2,
+    "xp": 17,
+    "tags": [
+      "theme_park",
+      "mascot",
+      "trash"
+    ],
+    "abilities": [
+      "hug_of_dampness"
+    ],
+    "flavor": "Nobody knows if there is a person inside. Nobody wants to check."
+  },
+  {
+    "id": "copay_crawler",
+    "name": "Copay Crawler",
+    "hp": 18,
+    "attack": 6,
+    "defense": 2,
+    "xp": 13,
+    "tags": [
+      "hospital",
+      "billing",
+      "paperwork"
+    ],
+    "abilities": [
+      "deductible_bite"
+    ],
+    "flavor": "Small, fast, and somehow out of network."
+  },
+  {
+    "id": "gurney_jackal",
+    "name": "Gurney Jackal",
+    "hp": 21,
+    "attack": 7,
+    "defense": 2,
+    "xp": 15,
+    "tags": [
+      "hospital",
+      "medical",
+      "undead"
+    ],
+    "abilities": [
+      "hallway_sprint"
+    ],
+    "flavor": "It rattles toward you with one bad wheel and excellent timing."
+  },
+  {
+    "id": "billing_phantom",
+    "name": "Billing Phantom",
+    "hp": 23,
+    "attack": 6,
+    "defense": 3,
+    "xp": 17,
+    "tags": [
+      "hospital",
+      "billing",
+      "undead",
+      "paperwork"
+    ],
+    "abilities": [
+      "surprise_invoice"
+    ],
+    "flavor": "You can’t hit it until prior authorization clears."
+  },
+  {
+    "id": "locker_mimic",
+    "name": "Locker Mimic",
+    "hp": 24,
+    "attack": 7,
+    "defense": 4,
+    "xp": 18,
+    "tags": [
+      "school",
+      "locker",
+      "appliance"
+    ],
+    "abilities": [
+      "slam_period"
+    ],
+    "flavor": "Smells like old gym socks and academic probation."
+  },
+  {
+    "id": "detention_ghoul",
+    "name": "Detention Ghoul",
+    "hp": 20,
+    "attack": 6,
+    "defense": 2,
+    "xp": 14,
+    "tags": [
+      "school",
+      "undead",
+      "paperwork"
+    ],
+    "abilities": [
+      "write_lines"
+    ],
+    "flavor": "It has been staying after class since 1997."
+  },
+  {
+    "id": "varsity_ooze",
+    "name": "Varsity Ooze",
+    "hp": 26,
+    "attack": 7,
+    "defense": 2,
+    "xp": 18,
+    "tags": [
+      "school",
+      "sports",
+      "mutant"
+    ],
+    "abilities": [
+      "letterman_lunge"
+    ],
+    "flavor": "All school spirit, no skeletal structure."
+  },
+  {
+    "id": "buffet_siren",
+    "name": "Buffet Siren",
+    "hp": 19,
+    "attack": 7,
+    "defense": 1,
+    "xp": 15,
+    "tags": [
+      "cruise",
+      "buffet",
+      "sea"
+    ],
+    "abilities": [
+      "dessert_lure"
+    ],
+    "flavor": "She sings of shrimp towers and irreversible choices."
+  },
+  {
+    "id": "deck_chair_crab",
+    "name": "Deck Chair Crab",
+    "hp": 17,
+    "attack": 6,
+    "defense": 3,
+    "xp": 13,
+    "tags": [
+      "cruise",
+      "sea",
+      "trash"
+    ],
+    "abilities": [
+      "recline_snap"
+    ],
+    "flavor": "A crustacean with lumbar support and murder goals."
+  },
+  {
+    "id": "karaoke_banshee",
+    "name": "Karaoke Banshee",
+    "hp": 22,
+    "attack": 8,
+    "defense": 1,
+    "xp": 17,
+    "tags": [
+      "cruise",
+      "tourist",
+      "undead"
+    ],
+    "abilities": [
+      "chorus_wail"
+    ],
+    "flavor": "She only knows one song, and it has eighteen key changes."
+  },
+  {
+    "id": "hold_music_imp",
+    "name": "Hold Music Imp",
+    "hp": 15,
+    "attack": 5,
+    "defense": 1,
+    "xp": 10,
+    "tags": [
+      "call_center",
+      "office",
+      "tech"
+    ],
+    "abilities": [
+      "loop_forever"
+    ],
+    "flavor": "Its flute solo resets every thirty seconds."
+  },
+  {
+    "id": "escalation_demon",
+    "name": "Escalation Demon",
+    "hp": 27,
+    "attack": 8,
+    "defense": 3,
+    "xp": 19,
+    "tags": [
+      "call_center",
+      "paperwork",
+      "undead"
+    ],
+    "abilities": [
+      "manager_transfer"
+    ],
+    "flavor": "It has been promoted beyond mortality."
+  },
+  {
+    "id": "survey_tick",
+    "name": "Survey Tick",
+    "hp": 14,
+    "attack": 5,
+    "defense": 2,
+    "xp": 10,
+    "tags": [
+      "call_center",
+      "survey",
+      "vermin"
+    ],
+    "abilities": [
+      "rate_your_pain"
+    ],
+    "flavor": "It asks how likely you are to recommend bleeding."
+  },
+  {
+    "id": "folding_chair_swarm",
+    "name": "Folding Chair Swarm",
+    "hp": 20,
+    "attack": 6,
+    "defense": 4,
+    "xp": 15,
+    "tags": [
+      "basement",
+      "fundraiser",
+      "appliance"
+    ],
+    "abilities": [
+      "pinch_point"
+    ],
+    "flavor": "Thirty chairs. One purpose. Zero mercy."
+  },
+  {
+    "id": "potluck_witch",
+    "name": "Potluck Witch",
+    "hp": 21,
+    "attack": 7,
+    "defense": 2,
+    "xp": 16,
+    "tags": [
+      "basement",
+      "fundraiser",
+      "snacks"
+    ],
+    "abilities": [
+      "casserole_hex"
+    ],
+    "flavor": "Her recipe card is laminated and screaming."
+  },
+  {
+    "id": "choir_bat",
+    "name": "Choir Bat",
+    "hp": 16,
+    "attack": 6,
+    "defense": 1,
+    "xp": 11,
+    "tags": [
+      "choir",
+      "basement",
+      "bird"
+    ],
+    "abilities": [
+      "harmony_bite"
+    ],
+    "flavor": "It hits the high note just before the jugular."
+  },
+  {
+    "id": "doorbell_drone",
+    "name": "Doorbell Drone",
+    "hp": 17,
+    "attack": 6,
+    "defense": 2,
+    "xp": 12,
+    "tags": [
+      "smart_home",
+      "tech",
+      "security"
+    ],
+    "abilities": [
+      "porch_pirate_alarm"
+    ],
+    "flavor": "It records everything, including your declining confidence."
+  },
+  {
+    "id": "thermostat_poltergeist",
+    "name": "Thermostat Poltergeist",
+    "hp": 20,
+    "attack": 6,
+    "defense": 3,
+    "xp": 15,
+    "tags": [
+      "smart_home",
+      "appliance",
+      "undead"
+    ],
+    "abilities": [
+      "set_to_terrible"
+    ],
+    "flavor": "It believes seventy-eight degrees is a personality."
+  },
+  {
+    "id": "robot_vacuum_maw",
+    "name": "Robot Vacuum Maw",
+    "hp": 23,
+    "attack": 7,
+    "defense": 3,
+    "xp": 17,
+    "tags": [
+      "smart_home",
+      "appliance",
+      "mutant"
+    ],
+    "abilities": [
+      "ankle_mapping"
+    ],
+    "flavor": "It has mapped the room. You are now debris."
+  },
+  {
+    "id": "lanyard_cultist",
+    "name": "Lanyard Cultist",
+    "hp": 19,
+    "attack": 6,
+    "defense": 2,
+    "xp": 14,
+    "tags": [
+      "convention",
+      "vendor",
+      "paperwork"
+    ],
+    "abilities": [
+      "badge_check"
+    ],
+    "flavor": "Its badge has fifteen ribbons and one threat."
+  },
+  {
+    "id": "booth_goblin",
+    "name": "Booth Goblin",
+    "hp": 16,
+    "attack": 6,
+    "defense": 1,
+    "xp": 11,
+    "tags": [
+      "convention",
+      "vendor",
+      "goblin"
+    ],
+    "abilities": [
+      "free_demo"
+    ],
+    "flavor": "It says the demo is free. The consequences are not."
+  },
+  {
+    "id": "cosplay_hydra",
+    "name": "Cosplay Hydra",
+    "hp": 30,
+    "attack": 8,
+    "defense": 2,
+    "xp": 20,
+    "tags": [
+      "convention",
+      "mascot",
+      "mutant"
+    ],
+    "abilities": [
+      "prop_weapon_actual"
+    ],
+    "flavor": "Every head insists it is the canon version."
+  },
+  {
+    "id": "bingo_berserker",
+    "name": "Bingo Berserker",
+    "hp": 23,
+    "attack": 7,
+    "defense": 3,
+    "xp": 17,
+    "tags": [
+      "retirement",
+      "hoa",
+      "paperwork"
+    ],
+    "abilities": [
+      "dabber_smash"
+    ],
+    "flavor": "It has B-12 and no chill."
+  },
+  {
+    "id": "golf_cart_revenant",
+    "name": "Golf Cart Revenant",
+    "hp": 25,
+    "attack": 8,
+    "defense": 3,
+    "xp": 18,
+    "tags": [
+      "retirement",
+      "golf",
+      "vehicle"
+    ],
+    "abilities": [
+      "fairway_charge"
+    ],
+    "flavor": "Headlights, cardigan, and unresolved tee time anger."
+  },
+  {
+    "id": "early_bird_vulture",
+    "name": "Early-Bird Vulture",
+    "hp": 18,
+    "attack": 6,
+    "defense": 1,
+    "xp": 12,
+    "tags": [
+      "retirement",
+      "bird",
+      "snacks"
+    ],
+    "abilities": [
+      "buffet_pick"
+    ],
+    "flavor": "It circles any entrée placed before 4:30 PM."
+  },
+  {
+    "id": "camera_gremlin",
+    "name": "Camera Gremlin",
+    "hp": 18,
+    "attack": 6,
+    "defense": 2,
+    "xp": 13,
+    "tags": [
+      "media",
+      "broadcast",
+      "tech",
+      "goblin"
+    ],
+    "abilities": [
+      "bad_angle"
+    ],
+    "flavor": "It always finds your least heroic side."
+  },
+  {
+    "id": "teleprompter_lich",
+    "name": "Teleprompter Lich",
+    "hp": 26,
+    "attack": 7,
+    "defense": 3,
+    "xp": 19,
+    "tags": [
+      "media",
+      "broadcast",
+      "undead",
+      "tech"
+    ],
+    "abilities": [
+      "read_the_curse"
+    ],
+    "flavor": "If you say the line, the line says you back."
+  },
+  {
+    "id": "boom_mic_spider",
+    "name": "Boom Mic Spider",
+    "hp": 17,
+    "attack": 6,
+    "defense": 2,
+    "xp": 12,
+    "tags": [
+      "media",
+      "broadcast",
+      "vermin"
+    ],
+    "abilities": [
+      "overhead_drop"
+    ],
+    "flavor": "It captures clean audio and messy screams."
+  },
+  {
+    "id": "ticket_machine_mouth",
+    "name": "Ticket Machine Mouth",
+    "hp": 22,
+    "attack": 7,
+    "defense": 4,
+    "xp": 16,
+    "tags": [
+      "parking",
+      "appliance",
+      "security"
+    ],
+    "abilities": [
+      "lost_ticket_fee"
+    ],
+    "flavor": "It dispenses tickets, receipts, and dental trauma."
+  },
+  {
+    "id": "oil_slick_elemental",
+    "name": "Oil Slick Elemental",
+    "hp": 21,
+    "attack": 7,
+    "defense": 2,
+    "xp": 16,
+    "tags": [
+      "parking",
+      "mutant",
+      "water"
+    ],
+    "abilities": [
+      "hydroplane"
+    ],
+    "flavor": "Rainbow sheen, sewer soul."
+  },
+  {
+    "id": "valet_wight",
+    "name": "Valet Wight",
+    "hp": 20,
+    "attack": 6,
+    "defense": 2,
+    "xp": 14,
+    "tags": [
+      "parking",
+      "security",
+      "undead"
+    ],
+    "abilities": [
+      "keys_forever"
+    ],
+    "flavor": "It lost your car and found religion in the glovebox."
+  }
+]

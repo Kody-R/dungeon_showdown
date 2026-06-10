@@ -1,0 +1,322 @@
+[
+  {
+    "id": "lost_npc",
+    "name": "Lost Contestant Event",
+    "type": "NPC Event",
+    "outcomes": [
+      "A half-retired crawler trades you survival gossip for your least convincing nod.",
+      "Someone in a mascot head whispers a shortcut, then denies having a body."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "vending_shrine",
+    "name": "Vending Shrine Event",
+    "type": "Room Event",
+    "outcomes": [
+      "The vending machine demands tribute and dispenses something almost useful.",
+      "A holy light flickers behind expired chips."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "brand_shop",
+    "name": "Questionable Shop Event",
+    "type": "Shop",
+    "outcomes": [
+      "The shopkeeper accepts credits, teeth, and positive survey results.",
+      "A kiosk offers discounts that feel like threats."
+    ],
+    "reward": "shop_loot"
+  },
+  {
+    "id": "crowd_vote",
+    "name": "Crowd Vote Event",
+    "type": "Room Event",
+    "outcomes": [
+      "The audience votes to make this slightly worse.",
+      "The crowd poll glitches and rewards pity."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "service_elevator_confessional",
+    "name": "Service Elevator Confessional",
+    "type": "NPC Event",
+    "outcomes": [
+      "A terrified maintenance worker admits the elevator only respects bribes.",
+      "The elevator opens to reveal a janitor who has been between floors since Tuesday."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "audience_pity_drop",
+    "name": "Audience Pity Drop",
+    "type": "Room Event",
+    "outcomes": [
+      "The crowd dislikes you enough to help ironically.",
+      "A drone drops supplies with the accuracy of a drunk pelican."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "sponsor_focus_group",
+    "name": "Sponsor Focus Group",
+    "type": "Room Event",
+    "outcomes": [
+      "A tablet asks whether you feel hunted in a premium way.",
+      "Your screams are categorized as valuable brand feedback."
+    ],
+    "reward": "sponsor_loot"
+  },
+  {
+    "id": "broken_map_kiosk",
+    "name": "Broken Map Kiosk",
+    "type": "NPC Event",
+    "outcomes": [
+      "The kiosk draws a route through several walls and one emotional boundary.",
+      "A map printer spits out directions written in fresh panic."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "employee_only_door",
+    "name": "Employee Only Door",
+    "type": "Room Event",
+    "outcomes": [
+      "Behind the door: mops, bones, and someone else's name tag.",
+      "The sign says Employees Only. The blood says Contractors Also."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "coupon_baptismal",
+    "name": "Coupon Baptismal",
+    "type": "Room Event",
+    "outcomes": [
+      "You are blessed with savings and lightly cursed with fine print.",
+      "A fountain of expired coupons whispers your middle name."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "maintenance_breakroom",
+    "name": "Maintenance Breakroom",
+    "type": "Room Event",
+    "outcomes": [
+      "A half-eaten sandwich glows with practical wisdom.",
+      "The coffee pot has achieved sentience and hates supervisors."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "unionized_goblin_checkpoint",
+    "name": "Unionized Goblin Checkpoint",
+    "type": "NPC Event",
+    "outcomes": [
+      "The goblins demand safer stabbing conditions and offer directions.",
+      "A shop steward trades you gossip for not being management."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "liability_waiver_altar",
+    "name": "Liability Waiver Altar",
+    "type": "Room Event",
+    "outcomes": [
+      "Signing the waiver makes the room briefly stop pretending to care.",
+      "The altar stamps APPROVED on your shadow."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "drone_repair_nest",
+    "name": "Drone Repair Nest",
+    "type": "Room Event",
+    "outcomes": [
+      "Camera drones molt broken lenses into a small useful pile.",
+      "A repair drone mistakes you for equipment and buffs out a bruise."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "ominous_merch_table",
+    "name": "Ominous Merch Table",
+    "type": "Shop",
+    "outcomes": [
+      "A vendor sells shirts commemorating deaths that have not happened yet.",
+      "The merch table accepts credits and denial."
+    ],
+    "reward": "shop_loot"
+  },
+  {
+    "id": "premium_vending_tomb",
+    "name": "Premium Vending Tomb",
+    "type": "Shop",
+    "outcomes": [
+      "A vending machine offers three price tiers and one moral compromise.",
+      "The card reader accepts payment, teeth, and sincere apologies."
+    ],
+    "reward": "shop_loot"
+  },
+  {
+    "id": "medical_claims_window",
+    "name": "Medical Claims Window",
+    "type": "NPC Event",
+    "outcomes": [
+      "A clerk says your injury is pre-existing because you entered the dungeon.",
+      "A glass window slides open just enough to judge you."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "lost_and_found_sarcophagus",
+    "name": "Lost and Found Sarcophagus",
+    "type": "Room Event",
+    "outcomes": [
+      "Inside: keys, wallets, and a weapon nobody wants to explain.",
+      "The lost-and-found bin gives back something you never owned."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "commentator_argument",
+    "name": "Commentator Argument",
+    "type": "Room Event",
+    "outcomes": [
+      "Two unseen hosts argue whether your survival counts as strategy.",
+      "The broadcast booth insults your posture, then drops a consolation prize."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "breakfast_buffet_ambush",
+    "name": "Breakfast Buffet Ambush",
+    "type": "Room Event",
+    "outcomes": [
+      "The eggs are powdered. The danger is fresh.",
+      "A waffle iron opens like a holy book of violence."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "quarter_slot_oracle",
+    "name": "Quarter Slot Oracle",
+    "type": "NPC Event",
+    "outcomes": [
+      "A coin slot predicts your future in exact change.",
+      "The oracle demands quarters and dispenses a prophecy about stains."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "customer_service_window",
+    "name": "Customer Service Window",
+    "type": "NPC Event",
+    "outcomes": [
+      "A representative apologizes for the inconvenience of your mortality.",
+      "You take a number. The number takes offense."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "security_tape_theater",
+    "name": "Security Tape Theater",
+    "type": "Room Event",
+    "outcomes": [
+      "A monitor replays your worst dodge from six angles.",
+      "The tape shows you entering this room tomorrow."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "forbidden_break_area",
+    "name": "Forbidden Break Area",
+    "type": "Room Event",
+    "outcomes": [
+      "A plastic chair offers five minutes of peace and one suspicious snack.",
+      "The break timer starts at thirty seconds and counts down in screams."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "executive_pop_up_shop",
+    "name": "Executive Pop-Up Shop",
+    "type": "Shop",
+    "outcomes": [
+      "A blazer on a mannequin sells premium survival solutions.",
+      "The shop smells like leather, fear, and subscription renewals."
+    ],
+    "reward": "shop_loot"
+  },
+  {
+    "id": "haunted_photo_booth",
+    "name": "Haunted Photo Booth",
+    "type": "Room Event",
+    "outcomes": [
+      "The photo strip shows four poses and one autopsy.",
+      "A flash goes off. Something behind you smiles in the print."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "safety_training_loop",
+    "name": "Safety Training Loop",
+    "type": "NPC Event",
+    "outcomes": [
+      "A training video teaches you how not to die, then contradicts itself.",
+      "The narrator sounds disappointed but gives practical advice."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "expired_first_aid_station",
+    "name": "Expired First Aid Station",
+    "type": "Room Event",
+    "outcomes": [
+      "A first-aid box contains bandages, dust, and legal disclaimers.",
+      "The antiseptic expired before you were born, but it has ambition."
+    ],
+    "reward": "small_heal"
+  },
+  {
+    "id": "mascot_green_room",
+    "name": "Mascot Green Room",
+    "type": "NPC Event",
+    "outcomes": [
+      "Several costume heads stare from hooks like retired gods.",
+      "A handler whispers which mascots bite and which negotiate."
+    ],
+    "reward": "small_loot"
+  },
+  {
+    "id": "algorithmic_confessional",
+    "name": "Algorithmic Confessional",
+    "type": "Room Event",
+    "outcomes": [
+      "A screen says it understands your preferences. It recommends violence.",
+      "You confess nothing. The algorithm already knew."
+    ],
+    "reward": "random"
+  },
+  {
+    "id": "parking_validation_desk",
+    "name": "Parking Validation Desk",
+    "type": "Shop",
+    "outcomes": [
+      "The attendant validates purchases, parking, and mild panic.",
+      "A tiny bell summons commerce from the concrete dark."
+    ],
+    "reward": "shop_loot"
+  },
+  {
+    "id": "floor_sponsor_shrine",
+    "name": "Floor Sponsor Shrine",
+    "type": "Room Event",
+    "outcomes": [
+      "A logo pulses like a sacred wound.",
+      "You kneel before branding and receive something almost useful."
+    ],
+    "reward": "sponsor_loot"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "scrapper",
+    "name": "Scrapper",
+    "description": "A brawler who solves budget problems with elbows.",
+    "hp": 34,
+    "attack": 7,
+    "defense": 2,
+    "luck": 1,
+    "starting_items": [
+      "coupon_blade",
+      "expired_energy_drink"
+    ],
+    "special": "Junkyard Haymaker: higher base attack and sturdy early combat."
+  },
+  {
+    "id": "former_mall_cop",
+    "name": "Former Mall Cop",
+    "description": "Knows every dangerous shortcut between security kiosks and pretzel stands.",
+    "hp": 36,
+    "attack": 5,
+    "defense": 4,
+    "luck": 1,
+    "starting_items": [
+      "corporate_riot_shield",
+      "mystery_meat_burrito"
+    ],
+    "special": "Radio Check: better defense and trap survivability."
+  },
+  {
+    "id": "failed_magician",
+    "name": "Failed Magician",
+    "description": "A stage performer whose tricks are mostly OSHA violations.",
+    "hp": 28,
+    "attack": 5,
+    "defense": 1,
+    "luck": 4,
+    "starting_items": [
+      "left_shoe_of_acceleration",
+      "expired_energy_drink"
+    ],
+    "special": "Misdirection: high luck for crits, loot, and traps."
+  },
+  {
+    "id": "lunch_lady_avenger",
+    "name": "Lunch Lady Avenger",
+    "description": "Carries a ladle, a grudge, and institutional knowledge of mystery meat.",
+    "hp": 38,
+    "attack": 6,
+    "defense": 3,
+    "luck": 1,
+    "starting_items": [
+      "mystery_meat_burrito",
+      "tray_of_equal_opportunity"
+    ],
+    "special": "Second Serving: stronger sustain from food items."
+  },
+  {
+    "id": "it_department_survivor",
+    "name": "IT Department Survivor",
+    "description": "Survived printer drivers, password resets, and now whatever this is.",
+    "hp": 30,
+    "attack": 5,
+    "defense": 2,
+    "luck": 3,
+    "starting_items": [
+      "stapler_of_minor_regret",
+      "expired_energy_drink"
+    ],
+    "special": "Have You Tried Rebooting It: balanced stats with extra luck."
+  },
+  {
+    "id": "mascot_handler",
+    "name": "Mascot Handler",
+    "description": "Speaks fluent foam costume and knows when the eyes are following you.",
+    "hp": 32,
+    "attack": 6,
+    "defense": 2,
+    "luck": 2,
+    "starting_items": [
+      "helmet_of_bad_ideas",
+      "mascot_whistle"
+    ],
+    "special": "Crowd Work: balanced fighter with odd sponsor luck."
+  }
+]

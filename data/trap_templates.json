@@ -1,0 +1,154 @@
+[
+  {
+    "id": "escalator_teeth",
+    "name": "Escalator Teeth",
+    "difficulty": 11,
+    "damage": 7,
+    "tags": [
+      "escalator",
+      "mall",
+      "retail"
+    ],
+    "flavor": "The stairs are moving and chewing."
+  },
+  {
+    "id": "security_gate_slam",
+    "name": "Malfunctioning Security Gate",
+    "difficulty": 12,
+    "damage": 6,
+    "tags": [
+      "security",
+      "mall",
+      "airport"
+    ],
+    "flavor": "It detects theft, bones, and confidence."
+  },
+  {
+    "id": "survey_kiosk",
+    "name": "Corporate Survey Kiosk",
+    "difficulty": 10,
+    "damage": 5,
+    "tags": [
+      "survey",
+      "retail",
+      "office",
+      "algorithm"
+    ],
+    "flavor": "One question becomes seventeen."
+  },
+  {
+    "id": "printer_jam_ambush",
+    "name": "Printer Jam Ambush",
+    "difficulty": 13,
+    "damage": 8,
+    "tags": [
+      "printer",
+      "office",
+      "appliance"
+    ],
+    "flavor": "PC LOAD LETTER was a warning."
+  },
+  {
+    "id": "mandatory_meeting_circle",
+    "name": "Mandatory Meeting Circle",
+    "difficulty": 12,
+    "damage": 6,
+    "tags": [
+      "meeting",
+      "office"
+    ],
+    "flavor": "You lose minutes of your life and possibly blood."
+  },
+  {
+    "id": "bylaw_pressure_plate",
+    "name": "Bylaw Pressure Plate",
+    "difficulty": 14,
+    "damage": 8,
+    "tags": [
+      "bylaw",
+      "hoa",
+      "sewer"
+    ],
+    "flavor": "A fine print rune glows under your boot."
+  },
+  {
+    "id": "backflow_geyser",
+    "name": "Backflow Geyser",
+    "difficulty": 13,
+    "damage": 9,
+    "tags": [
+      "sewer",
+      "water"
+    ],
+    "flavor": "The floor disagrees with gravity and hygiene."
+  },
+  {
+    "id": "exploding_prize_balloon",
+    "name": "Exploding Prize Balloon",
+    "difficulty": 11,
+    "damage": 7,
+    "tags": [
+      "balloon",
+      "carnival",
+      "waiver"
+    ],
+    "flavor": "Pop goes the liability waiver."
+  },
+  {
+    "id": "unsafe_tilt_a_whirl",
+    "name": "Unsafe Tilt-A-Whirl",
+    "difficulty": 14,
+    "damage": 9,
+    "tags": [
+      "carnival",
+      "ride"
+    ],
+    "flavor": "The ride operator is a skull with a whistle."
+  },
+  {
+    "id": "soap_slick_floor",
+    "name": "Soap-Slick Floor",
+    "difficulty": 10,
+    "damage": 5,
+    "tags": [
+      "laundry",
+      "water",
+      "soap"
+    ],
+    "flavor": "Cleanliness is next to head trauma."
+  },
+  {
+    "id": "industrial_spin_door",
+    "name": "Industrial Spin Door",
+    "difficulty": 15,
+    "damage": 10,
+    "tags": [
+      "laundry",
+      "appliance"
+    ],
+    "flavor": "It says delicate cycle. It lies."
+  },
+  {
+    "id": "hostile_moving_walkway",
+    "name": "Hostile Moving Walkway",
+    "difficulty": 12,
+    "damage": 7,
+    "tags": [
+      "airport",
+      "moving_walkway"
+    ],
+    "flavor": "It moves you toward consequences."
+  },
+  {
+    "id": "subscription_spike_wall",
+    "name": "Subscription Spike Wall",
+    "difficulty": 13,
+    "damage": 8,
+    "tags": [
+      "subscription",
+      "algorithm",
+      "screen"
+    ],
+    "flavor": "Premium users may disable impalement."
+  }
+]

@@ -1,0 +1,376 @@
+[
+  {
+    "id": "food_court_oracle",
+    "name": "The Food Court Oracle",
+    "hp": 80,
+    "attack": 9,
+    "defense": 3,
+    "xp": 40,
+    "abilities": [
+      "grease_wave",
+      "summon_leftovers"
+    ],
+    "floor_theme_tags": [
+      "mall",
+      "food_court"
+    ],
+    "flavor": "A floating tray of cursed samples and bad advice."
+  },
+  {
+    "id": "regional_manager_eternal",
+    "name": "The Eternal Regional Manager",
+    "hp": 88,
+    "attack": 10,
+    "defense": 4,
+    "xp": 45,
+    "abilities": [
+      "performance_review",
+      "mandatory_overtime"
+    ],
+    "floor_theme_tags": [
+      "office",
+      "paperwork"
+    ],
+    "flavor": "A blazer full of bones and quarterly goals."
+  },
+  {
+    "id": "president_of_the_hoa",
+    "name": "President of the HOA Below",
+    "hp": 92,
+    "attack": 10,
+    "defense": 5,
+    "xp": 48,
+    "abilities": [
+      "lien_slam",
+      "grass_height_violation"
+    ],
+    "floor_theme_tags": [
+      "sewer",
+      "hoa"
+    ],
+    "flavor": "Rules from the depths, fines from the soul."
+  },
+  {
+    "id": "compliance_clown_prince",
+    "name": "Compliance Clown Prince",
+    "hp": 84,
+    "attack": 12,
+    "defense": 3,
+    "xp": 46,
+    "abilities": [
+      "waiver_confetti",
+      "seltzer_subpoena"
+    ],
+    "floor_theme_tags": [
+      "carnival",
+      "clown"
+    ],
+    "flavor": "A royal nightmare in face paint and indemnity clauses."
+  },
+  {
+    "id": "queen_of_spin_cycle",
+    "name": "Queen of the Spin Cycle",
+    "hp": 86,
+    "attack": 10,
+    "defense": 4,
+    "xp": 44,
+    "abilities": [
+      "rinse_repeat",
+      "coin_slot_curse"
+    ],
+    "floor_theme_tags": [
+      "laundry",
+      "appliance"
+    ],
+    "flavor": "Her crown is dryer sheets. Her throne is unbalanced."
+  },
+  {
+    "id": "lost_luggage_colossus",
+    "name": "Lost Luggage Colossus",
+    "hp": 96,
+    "attack": 11,
+    "defense": 5,
+    "xp": 50,
+    "abilities": [
+      "baggage_claim_stomp",
+      "delayed_forever"
+    ],
+    "floor_theme_tags": [
+      "airport",
+      "luggage"
+    ],
+    "flavor": "A mountain of suitcases seeking emotional closure."
+  },
+  {
+    "id": "autoplay_archduke",
+    "name": "The Autoplay Archduke",
+    "hp": 90,
+    "attack": 11,
+    "defense": 4,
+    "xp": 49,
+    "abilities": [
+      "next_episode",
+      "skip_intro_scream"
+    ],
+    "floor_theme_tags": [
+      "media",
+      "algorithm"
+    ],
+    "flavor": "It starts another fight before you decide."
+  },
+  {
+    "id": "bulk_baron_of_aisle_13",
+    "name": "Bulk Baron of Aisle 13",
+    "hp": 102,
+    "attack": 12,
+    "defense": 5,
+    "xp": 54,
+    "abilities": [
+      "pallet_fortress",
+      "family_size_fist"
+    ],
+    "floor_theme_tags": [
+      "warehouse",
+      "retail"
+    ],
+    "flavor": "A towering membership executive made of shrink wrap, bones, and free samples."
+  },
+  {
+    "id": "mascot_without_a_guest",
+    "name": "The Mascot Without a Guest",
+    "hp": 94,
+    "attack": 12,
+    "defense": 4,
+    "xp": 50,
+    "abilities": [
+      "photo_op_maul",
+      "character_break"
+    ],
+    "floor_theme_tags": [
+      "theme_park",
+      "mascot"
+    ],
+    "flavor": "A cheerful costume with nobody inside except a schedule violation."
+  },
+  {
+    "id": "copay_archlich",
+    "name": "Copay Archlich",
+    "hp": 98,
+    "attack": 11,
+    "defense": 5,
+    "xp": 52,
+    "abilities": [
+      "prior_authorization",
+      "deductible_doom"
+    ],
+    "floor_theme_tags": [
+      "hospital",
+      "billing"
+    ],
+    "flavor": "Its phylactery is a billing portal with password rules from hell."
+  },
+  {
+    "id": "principal_final_warning",
+    "name": "Principal Final Warning",
+    "hp": 92,
+    "attack": 11,
+    "defense": 4,
+    "xp": 48,
+    "abilities": [
+      "permanent_record",
+      "hall_pass_denial"
+    ],
+    "floor_theme_tags": [
+      "school",
+      "detention"
+    ],
+    "flavor": "A voice over the intercom wearing a suit made of detention slips."
+  },
+  {
+    "id": "captain_of_the_buffet",
+    "name": "Captain of the Buffet",
+    "hp": 100,
+    "attack": 12,
+    "defense": 4,
+    "xp": 53,
+    "abilities": [
+      "second_seating",
+      "norovirus_broadside"
+    ],
+    "floor_theme_tags": [
+      "cruise",
+      "buffet"
+    ],
+    "flavor": "He went down with the ship, then came back for dessert."
+  },
+  {
+    "id": "supervisor_on_line_zero",
+    "name": "Supervisor on Line Zero",
+    "hp": 96,
+    "attack": 11,
+    "defense": 5,
+    "xp": 51,
+    "abilities": [
+      "hold_forever",
+      "quality_assurance_scream"
+    ],
+    "floor_theme_tags": [
+      "call_center",
+      "paperwork"
+    ],
+    "flavor": "A headset-wearing demon whose empathy script has been redacted."
+  },
+  {
+    "id": "reverend_of_the_folding_chairs",
+    "name": "Reverend of the Folding Chairs",
+    "hp": 90,
+    "attack": 10,
+    "defense": 6,
+    "xp": 49,
+    "abilities": [
+      "passing_plate_pummel",
+      "amen_avalanche"
+    ],
+    "floor_theme_tags": [
+      "fundraiser",
+      "choir"
+    ],
+    "flavor": "He promises deliverance, but the chairs are stacked against you."
+  },
+  {
+    "id": "thermostat_that_knows_sin",
+    "name": "The Thermostat That Knows Sin",
+    "hp": 92,
+    "attack": 12,
+    "defense": 4,
+    "xp": 50,
+    "abilities": [
+      "eco_mode_execution",
+      "humidity_judgment"
+    ],
+    "floor_theme_tags": [
+      "smart_home",
+      "appliance"
+    ],
+    "flavor": "It has learned your preferences and found them morally unacceptable."
+  },
+  {
+    "id": "keynote_kraken",
+    "name": "The Keynote Kraken",
+    "hp": 104,
+    "attack": 12,
+    "defense": 5,
+    "xp": 55,
+    "abilities": [
+      "slide_deck_tentacles",
+      "breakout_session"
+    ],
+    "floor_theme_tags": [
+      "convention",
+      "vendor"
+    ],
+    "flavor": "It rises from under the expo stage with a sponsor reel in each limb."
+  },
+  {
+    "id": "bingo_grand_matriarch",
+    "name": "Bingo Grand Matriarch",
+    "hp": 96,
+    "attack": 11,
+    "defense": 5,
+    "xp": 51,
+    "abilities": [
+      "blackout_card",
+      "early_bird_wrath"
+    ],
+    "floor_theme_tags": [
+      "retirement",
+      "hoa"
+    ],
+    "flavor": "She has every number, every rule, and your plate number."
+  },
+  {
+    "id": "station_manager_of_the_end",
+    "name": "Station Manager of the End",
+    "hp": 98,
+    "attack": 12,
+    "defense": 4,
+    "xp": 52,
+    "abilities": [
+      "cut_to_commercial",
+      "viewer_discretion"
+    ],
+    "floor_theme_tags": [
+      "media",
+      "broadcast"
+    ],
+    "flavor": "A blazer full of static, ratings data, and unpaid interns."
+  },
+  {
+    "id": "zone_f_attendant",
+    "name": "Zone F Attendant",
+    "hp": 94,
+    "attack": 11,
+    "defense": 6,
+    "xp": 50,
+    "abilities": [
+      "validate_this",
+      "gate_arm_guillotine"
+    ],
+    "floor_theme_tags": [
+      "parking",
+      "security"
+    ],
+    "flavor": "It knows where you parked. It will never tell you."
+  },
+  {
+    "id": "king_of_expired_coupons",
+    "name": "King of Expired Coupons",
+    "hp": 86,
+    "attack": 13,
+    "defense": 3,
+    "xp": 47,
+    "abilities": [
+      "fine_print_flurry",
+      "manager_summons"
+    ],
+    "floor_theme_tags": [
+      "mall",
+      "retail"
+    ],
+    "flavor": "A paper crown, a plastic throne, and a thousand invalid discounts."
+  },
+  {
+    "id": "the_unclaimed_bag",
+    "name": "The Unclaimed Bag",
+    "hp": 106,
+    "attack": 10,
+    "defense": 7,
+    "xp": 55,
+    "abilities": [
+      "contents_shift",
+      "carousel_crush"
+    ],
+    "floor_theme_tags": [
+      "airport",
+      "luggage"
+    ],
+    "flavor": "Nobody packed it, nobody claims it, and something inside keeps knocking."
+  },
+  {
+    "id": "lord_bufferwheel",
+    "name": "Lord Bufferwheel",
+    "hp": 92,
+    "attack": 12,
+    "defense": 4,
+    "xp": 50,
+    "abilities": [
+      "loading_circle",
+      "resolution_drop"
+    ],
+    "floor_theme_tags": [
+      "media",
+      "algorithm"
+    ],
+    "flavor": "A spinning icon wearing a crown of canceled subscriptions."
+  }
+]

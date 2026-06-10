@@ -1,0 +1,361 @@
+[
+  {
+    "id": "big_box_bone_depot",
+    "name": "Big Box Bone Depot",
+    "tone": "warehouse retail necromancy",
+    "description": "A warehouse store where the aisles are numbered, the skeletons are unionizing, and every sample station smells like betrayal.",
+    "enemy_tags": [
+      "warehouse",
+      "retail",
+      "skeleton",
+      "trash",
+      "contractor"
+    ],
+    "trap_tags": [
+      "forklift",
+      "bulk",
+      "retail",
+      "sample_station",
+      "warehouse"
+    ],
+    "boss_tags": [
+      "warehouse",
+      "retail"
+    ],
+    "loot_bias": [
+      "bulk",
+      "tools",
+      "snacks",
+      "corporate"
+    ]
+  },
+  {
+    "id": "theme_park_backstage",
+    "name": "Theme Park Backstage Incident Zone",
+    "tone": "family entertainment industrial horror",
+    "description": "A forbidden service corridor under forced smiles, broken animatronics, and employees who have seen too much magic.",
+    "enemy_tags": [
+      "theme_park",
+      "mascot",
+      "animatronic",
+      "security",
+      "trash"
+    ],
+    "trap_tags": [
+      "ride",
+      "costume",
+      "maintenance",
+      "queue",
+      "theme_park"
+    ],
+    "boss_tags": [
+      "theme_park",
+      "mascot"
+    ],
+    "loot_bias": [
+      "souvenirs",
+      "snacks",
+      "improvised_weapons",
+      "sponsor"
+    ]
+  },
+  {
+    "id": "hospital_billing_crypt",
+    "name": "Hospital Billing Crypt",
+    "tone": "medical debt gothic comedy",
+    "description": "A sterile maze where the lights hum, the invoices breathe, and the copay has developed teeth.",
+    "enemy_tags": [
+      "hospital",
+      "undead",
+      "paperwork",
+      "medical",
+      "tech"
+    ],
+    "trap_tags": [
+      "medical",
+      "billing",
+      "wheelchair",
+      "elevator",
+      "paperwork"
+    ],
+    "boss_tags": [
+      "hospital",
+      "billing"
+    ],
+    "loot_bias": [
+      "medical",
+      "coffee",
+      "corporate",
+      "snacks"
+    ]
+  },
+  {
+    "id": "high_school_afterhours",
+    "name": "High School After-Hours Detention Pit",
+    "tone": "teenage institutional nightmare",
+    "description": "Lockers slam by themselves while the intercom assigns detention to anyone still breathing.",
+    "enemy_tags": [
+      "school",
+      "undead",
+      "sports",
+      "paperwork",
+      "cafeteria"
+    ],
+    "trap_tags": [
+      "locker",
+      "gym",
+      "detention",
+      "cafeteria",
+      "school"
+    ],
+    "boss_tags": [
+      "school",
+      "detention"
+    ],
+    "loot_bias": [
+      "stationery",
+      "snacks",
+      "improvised_weapons"
+    ]
+  },
+  {
+    "id": "cruise_ship_of_regret",
+    "name": "Cruise Ship of Regret",
+    "tone": "vacation horror buffet satire",
+    "description": "A listing vessel of endless buffets, mandatory fun, and cabins that are smaller on the inside.",
+    "enemy_tags": [
+      "cruise",
+      "sea",
+      "tourist",
+      "security",
+      "vermin"
+    ],
+    "trap_tags": [
+      "buffet",
+      "pool",
+      "elevator",
+      "sea",
+      "vacation"
+    ],
+    "boss_tags": [
+      "cruise",
+      "buffet"
+    ],
+    "loot_bias": [
+      "travel",
+      "snacks",
+      "sponsor",
+      "absurd"
+    ]
+  },
+  {
+    "id": "call_center_underworld",
+    "name": "Call Center Underworld",
+    "tone": "customer service inferno",
+    "description": "Rows of ringing phones descend forever, and every hold message knows your childhood fears.",
+    "enemy_tags": [
+      "call_center",
+      "office",
+      "tech",
+      "paperwork",
+      "undead"
+    ],
+    "trap_tags": [
+      "phone",
+      "survey",
+      "hold_music",
+      "office",
+      "tech"
+    ],
+    "boss_tags": [
+      "call_center",
+      "paperwork"
+    ],
+    "loot_bias": [
+      "coffee",
+      "stationery",
+      "gadgets",
+      "corporate"
+    ]
+  },
+  {
+    "id": "mega_church_basement",
+    "name": "Mega Church Basement of Sponsored Miracles",
+    "tone": "fundraising apocalypse comedy",
+    "description": "A carpeted basement where folding chairs form ritual circles and every donation bucket jingles with prophecy.",
+    "enemy_tags": [
+      "basement",
+      "fundraiser",
+      "choir",
+      "paperwork",
+      "trash"
+    ],
+    "trap_tags": [
+      "folding_chair",
+      "potluck",
+      "donation",
+      "stage",
+      "basement"
+    ],
+    "boss_tags": [
+      "fundraiser",
+      "choir"
+    ],
+    "loot_bias": [
+      "snacks",
+      "sponsor",
+      "absurd",
+      "corporate"
+    ]
+  },
+  {
+    "id": "smart_home_abattoir",
+    "name": "Smart Home Abattoir",
+    "tone": "domestic automation betrayal",
+    "description": "A luxury smart home where every appliance has a firmware grudge and the thermostat is legally insane.",
+    "enemy_tags": [
+      "smart_home",
+      "appliance",
+      "tech",
+      "security",
+      "mutant"
+    ],
+    "trap_tags": [
+      "thermostat",
+      "vacuum",
+      "doorbell",
+      "appliance",
+      "tech"
+    ],
+    "boss_tags": [
+      "smart_home",
+      "appliance"
+    ],
+    "loot_bias": [
+      "gadgets",
+      "cleaning",
+      "tools",
+      "sponsor"
+    ]
+  },
+  {
+    "id": "convention_center_collapse",
+    "name": "Convention Center Collapse",
+    "tone": "expo hall disaster capitalism",
+    "description": "A shattered convention hall where vendors still pitch upgrades between cave-ins and mascot duels.",
+    "enemy_tags": [
+      "convention",
+      "vendor",
+      "mascot",
+      "tech",
+      "contractor"
+    ],
+    "trap_tags": [
+      "booth",
+      "lanyard",
+      "escalator",
+      "stage",
+      "survey"
+    ],
+    "boss_tags": [
+      "convention",
+      "vendor"
+    ],
+    "loot_bias": [
+      "gadgets",
+      "sponsor",
+      "snacks",
+      "corporate"
+    ]
+  },
+  {
+    "id": "retirement_village_raid",
+    "name": "Retirement Village Raid Night",
+    "tone": "suburban elder chaos",
+    "description": "Golf carts prowl the streets, bingo cards whisper coordinates, and the early-bird special is armed.",
+    "enemy_tags": [
+      "retirement",
+      "hoa",
+      "golf",
+      "vermin",
+      "security"
+    ],
+    "trap_tags": [
+      "golf_cart",
+      "bingo",
+      "lawn",
+      "bylaw",
+      "buffet"
+    ],
+    "boss_tags": [
+      "retirement",
+      "hoa"
+    ],
+    "loot_bias": [
+      "snacks",
+      "tools",
+      "medical",
+      "absurd"
+    ]
+  },
+  {
+    "id": "public_access_cataclysm",
+    "name": "Public Access Cataclysm Studio",
+    "tone": "low-budget broadcast horror",
+    "description": "A local TV studio where cameras hunt for reactions and every teleprompter predicts a lawsuit.",
+    "enemy_tags": [
+      "media",
+      "broadcast",
+      "tech",
+      "undead",
+      "contractor"
+    ],
+    "trap_tags": [
+      "camera",
+      "teleprompter",
+      "stage",
+      "screen",
+      "survey"
+    ],
+    "boss_tags": [
+      "media",
+      "broadcast"
+    ],
+    "loot_bias": [
+      "gadgets",
+      "sponsor",
+      "coffee",
+      "absurd"
+    ]
+  },
+  {
+    "id": "parking_garage_depths",
+    "name": "Parking Garage Depths of Zone F",
+    "tone": "concrete echo dread comedy",
+    "description": "A spiraling garage where every level is F, the ticket machine is hungry, and headlights follow from below.",
+    "enemy_tags": [
+      "parking",
+      "security",
+      "car",
+      "trash",
+      "mutant"
+    ],
+    "trap_tags": [
+      "parking",
+      "gate_arm",
+      "oil",
+      "elevator",
+      "ticket"
+    ],
+    "boss_tags": [
+      "parking",
+      "security"
+    ],
+    "loot_bias": [
+      "tools",
+      "junk",
+      "sponsor",
+      "improvised_weapons"
+    ]
+  }
+]

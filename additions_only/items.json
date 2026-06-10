@@ -1,0 +1,441 @@
+[
+  {
+    "id": "bulk_pack_bandaids",
+    "name": "Bulk Pack Bandages",
+    "type": "consumable",
+    "rarity": "common",
+    "heal": 10,
+    "effect": "heal",
+    "flavor": "Individually wrapped, emotionally unavailable."
+  },
+  {
+    "id": "sample_cup_of_destiny",
+    "name": "Sample Cup of Destiny",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "heal": 16,
+    "effect": "heal",
+    "flavor": "A tiny serving of something heroic and probably dairy-based."
+  },
+  {
+    "id": "pallet_jack_halberd",
+    "name": "Pallet Jack Halberd",
+    "type": "weapon",
+    "rarity": "rare",
+    "attack_bonus": 5,
+    "defense_bonus": 1,
+    "effect": "warehouse_reach",
+    "flavor": "Forks forward, confidence backward."
+  },
+  {
+    "id": "membership_card_shield",
+    "name": "Membership Card Shield",
+    "type": "armor",
+    "rarity": "uncommon",
+    "defense_bonus": 3,
+    "luck_bonus": 1,
+    "effect": "bulk_savings",
+    "flavor": "Protects against blades and some annual fees."
+  },
+  {
+    "id": "churro_shiv",
+    "name": "Churro Shiv",
+    "type": "weapon",
+    "rarity": "common",
+    "attack_bonus": 2,
+    "defense_bonus": 0,
+    "effect": "cinnamon_cut",
+    "flavor": "Crunchy, sweet, and inadmissible in court."
+  },
+  {
+    "id": "ride_photo_flashbang",
+    "name": "Ride Photo Flashbang",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "damage": 14,
+    "effect": "combat_damage",
+    "flavor": "Captures the moment right before regret."
+  },
+  {
+    "id": "mascot_head_bucket",
+    "name": "Mascot Head Bucket",
+    "type": "armor",
+    "rarity": "rare",
+    "defense_bonus": 3,
+    "luck_bonus": 2,
+    "effect": "unsettling_smile",
+    "flavor": "Visibility is poor. Vibes are worse."
+  },
+  {
+    "id": "turnstile_spear",
+    "name": "Turnstile Spear",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "attack_bonus": 3,
+    "defense_bonus": 1,
+    "effect": "admission_denied",
+    "flavor": "It only spins one way: into trouble."
+  },
+  {
+    "id": "hospital_pudding",
+    "name": "Hospital Pudding Cup",
+    "type": "consumable",
+    "rarity": "common",
+    "heal": 12,
+    "effect": "heal",
+    "flavor": "The label says vanilla. The pudding disagrees."
+  },
+  {
+    "id": "iv_bag_of_espresso",
+    "name": "IV Bag of Espresso",
+    "type": "consumable",
+    "rarity": "rare",
+    "heal": 18,
+    "attack_bonus": 2,
+    "effect": "heal_and_inspire",
+    "flavor": "Administered directly into poor judgment."
+  },
+  {
+    "id": "clipboard_cleaver",
+    "name": "Clipboard Cleaver",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "attack_bonus": 3,
+    "defense_bonus": 0,
+    "effect": "forms_in_triplicate",
+    "flavor": "Cuts, clips, and requests your insurance card."
+  },
+  {
+    "id": "lead_apron_of_denial",
+    "name": "Lead Apron of Denial",
+    "type": "armor",
+    "rarity": "rare",
+    "defense_bonus": 5,
+    "luck_bonus": -1,
+    "effect": "heavy_protection",
+    "flavor": "Safe from radiation. Vulnerable to stairs."
+  },
+  {
+    "id": "detention_slip_fan",
+    "name": "Detention Slip Fan",
+    "type": "weapon",
+    "rarity": "common",
+    "attack_bonus": 2,
+    "defense_bonus": 1,
+    "effect": "paperstorm",
+    "flavor": "A thousand minor infractions, folded into violence."
+  },
+  {
+    "id": "cafeteria_milk_bomb",
+    "name": "Cafeteria Milk Bomb",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "damage": 16,
+    "effect": "combat_damage",
+    "flavor": "Best by 2009. Worst right now."
+  },
+  {
+    "id": "varsity_pad_armor",
+    "name": "Varsity Pad Armor",
+    "type": "armor",
+    "rarity": "uncommon",
+    "defense_bonus": 3,
+    "attack_bonus": 1,
+    "effect": "school_spirit",
+    "flavor": "Smells like grass stains and unresolved rivalries."
+  },
+  {
+    "id": "hall_pass_of_escape",
+    "name": "Hall Pass of Escape",
+    "type": "trinket",
+    "rarity": "rare",
+    "luck_bonus": 3,
+    "effect": "authorized_absence",
+    "flavor": "Signed by nobody. Respected by fear."
+  },
+  {
+    "id": "buffet_tongs_of_grabbing",
+    "name": "Buffet Tongs of Grabbing",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "attack_bonus": 3,
+    "defense_bonus": 0,
+    "effect": "second_helping",
+    "flavor": "Good reach. Questionable hygiene."
+  },
+  {
+    "id": "life_jacket_of_denial",
+    "name": "Life Jacket of Denial",
+    "type": "armor",
+    "rarity": "common",
+    "defense_bonus": 2,
+    "effect": "float_panic",
+    "flavor": "Will not save you emotionally."
+  },
+  {
+    "id": "soft_serve_plasma",
+    "name": "Soft Serve Plasma",
+    "type": "consumable",
+    "rarity": "rare",
+    "damage": 20,
+    "effect": "combat_damage",
+    "flavor": "Comes out of the machine screaming."
+  },
+  {
+    "id": "tiny_umbrella_of_luck",
+    "name": "Tiny Umbrella of Luck",
+    "type": "trinket",
+    "rarity": "uncommon",
+    "luck_bonus": 2,
+    "effect": "vacation_energy",
+    "flavor": "Makes any drink legally tactical."
+  },
+  {
+    "id": "headset_of_escalation",
+    "name": "Headset of Escalation",
+    "type": "armor",
+    "rarity": "rare",
+    "defense_bonus": 2,
+    "luck_bonus": 3,
+    "effect": "manager_voice",
+    "flavor": "You can hear the complaint before it forms."
+  },
+  {
+    "id": "hold_music_flute",
+    "name": "Hold Music Flute",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "attack_bonus": 3,
+    "effect": "looping_melody",
+    "flavor": "Three notes, infinite irritation."
+  },
+  {
+    "id": "supervisor_red_button",
+    "name": "Supervisor Red Button",
+    "type": "consumable",
+    "rarity": "epic",
+    "damage": 26,
+    "effect": "combat_damage",
+    "flavor": "Do not press unless prepared to be measured."
+  },
+  {
+    "id": "survey_coupon_stack",
+    "name": "Survey Coupon Stack",
+    "type": "trinket",
+    "rarity": "common",
+    "luck_bonus": 1,
+    "effect": "feedback_loop",
+    "flavor": "Worth five percent off pain."
+  },
+  {
+    "id": "folding_chair_of_truth",
+    "name": "Folding Chair of Truth",
+    "type": "weapon",
+    "rarity": "rare",
+    "attack_bonus": 5,
+    "defense_bonus": 1,
+    "effect": "steel_sermon",
+    "flavor": "A classic argument ender."
+  },
+  {
+    "id": "potluck_casserole_square",
+    "name": "Potluck Casserole Square",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "heal": 18,
+    "effect": "heal",
+    "flavor": "Nobody knows who brought it. Everybody respects it."
+  },
+  {
+    "id": "donation_bucket_helmet",
+    "name": "Donation Bucket Helmet",
+    "type": "armor",
+    "rarity": "uncommon",
+    "defense_bonus": 3,
+    "effect": "clanging_mercy",
+    "flavor": "Every hit sounds like loose change and disappointment."
+  },
+  {
+    "id": "choir_pitch_pipe",
+    "name": "Choir Pitch Pipe",
+    "type": "trinket",
+    "rarity": "rare",
+    "attack_bonus": 1,
+    "luck_bonus": 2,
+    "effect": "perfect_pitch",
+    "flavor": "Summons confidence and possibly bats."
+  },
+  {
+    "id": "smart_toaster_shrapnel",
+    "name": "Smart Toaster Shrapnel",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "damage": 17,
+    "effect": "combat_damage",
+    "flavor": "Pairs with jam and emergency surgery."
+  },
+  {
+    "id": "doorbell_camera_charm",
+    "name": "Doorbell Camera Charm",
+    "type": "trinket",
+    "rarity": "rare",
+    "defense_bonus": 1,
+    "luck_bonus": 3,
+    "effect": "motion_detected",
+    "flavor": "Alerts you to danger and porch pirates."
+  },
+  {
+    "id": "thermostat_scepter",
+    "name": "Thermostat Scepter",
+    "type": "weapon",
+    "rarity": "epic",
+    "attack_bonus": 6,
+    "luck_bonus": 1,
+    "effect": "climate_control",
+    "flavor": "Every degree is a threat."
+  },
+  {
+    "id": "vacuum_bag_breastplate",
+    "name": "Vacuum Bag Breastplate",
+    "type": "armor",
+    "rarity": "rare",
+    "defense_bonus": 4,
+    "effect": "dust_collection",
+    "flavor": "Full of crumbs, hair, and tactical padding."
+  },
+  {
+    "id": "lanyard_whip",
+    "name": "Lanyard Whip",
+    "type": "weapon",
+    "rarity": "common",
+    "attack_bonus": 2,
+    "luck_bonus": 1,
+    "effect": "badge_slap",
+    "flavor": "The plastic sleeve leaves a mark."
+  },
+  {
+    "id": "expo_tote_of_holding",
+    "name": "Expo Tote of Holding",
+    "type": "trinket",
+    "rarity": "epic",
+    "defense_bonus": 1,
+    "luck_bonus": 4,
+    "effect": "swag_overflow",
+    "flavor": "Contains pens, brochures, and one forbidden sandwich."
+  },
+  {
+    "id": "booth_demo_laser",
+    "name": "Booth Demo Laser",
+    "type": "consumable",
+    "rarity": "rare",
+    "damage": 22,
+    "effect": "combat_damage",
+    "flavor": "Not rated for use outside controlled sales environments."
+  },
+  {
+    "id": "bingo_dabber_mace",
+    "name": "Bingo Dabber Mace",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "attack_bonus": 4,
+    "effect": "purple_stampede",
+    "flavor": "Marks cards, walls, and enemies."
+  },
+  {
+    "id": "golf_cart_bumper",
+    "name": "Golf Cart Bumper",
+    "type": "armor",
+    "rarity": "rare",
+    "defense_bonus": 4,
+    "attack_bonus": 1,
+    "effect": "fairway_impact",
+    "flavor": "Low speed. High disrespect."
+  },
+  {
+    "id": "early_bird_tonic",
+    "name": "Early-Bird Tonic",
+    "type": "consumable",
+    "rarity": "common",
+    "heal": 11,
+    "effect": "heal",
+    "flavor": "Works best before 4:30 PM."
+  },
+  {
+    "id": "teleprompter_glass",
+    "name": "Teleprompter Glass",
+    "type": "weapon",
+    "rarity": "rare",
+    "attack_bonus": 5,
+    "effect": "read_ahead",
+    "flavor": "Sharp enough to cut to commercial."
+  },
+  {
+    "id": "boom_mic_spear",
+    "name": "Boom Mic Spear",
+    "type": "weapon",
+    "rarity": "uncommon",
+    "attack_bonus": 4,
+    "defense_bonus": 0,
+    "effect": "hot_mic",
+    "flavor": "Picks up enemy weakness and background sobbing."
+  },
+  {
+    "id": "viewer_mail_satchel",
+    "name": "Viewer Mail Satchel",
+    "type": "armor",
+    "rarity": "epic",
+    "defense_bonus": 4,
+    "luck_bonus": 2,
+    "effect": "fan_letters",
+    "flavor": "Most of the letters are threats. Some are coupons."
+  },
+  {
+    "id": "parking_gate_glaive",
+    "name": "Parking Gate Glaive",
+    "type": "weapon",
+    "rarity": "rare",
+    "attack_bonus": 5,
+    "defense_bonus": 1,
+    "effect": "validated_strike",
+    "flavor": "Raises slowly, falls with purpose."
+  },
+  {
+    "id": "lost_ticket_talisman",
+    "name": "Lost Ticket Talisman",
+    "type": "trinket",
+    "rarity": "uncommon",
+    "luck_bonus": 2,
+    "effect": "where_did_i_park",
+    "flavor": "You owe forty credits, spiritually."
+  },
+  {
+    "id": "oil_slick_bottle",
+    "name": "Oil Slick Bottle",
+    "type": "consumable",
+    "rarity": "uncommon",
+    "damage": 15,
+    "effect": "combat_damage",
+    "flavor": "Slippery, flammable, and marketed as artisanal."
+  },
+  {
+    "id": "concrete_poncho",
+    "name": "Concrete Poncho",
+    "type": "armor",
+    "rarity": "legendary",
+    "defense_bonus": 7,
+    "attack_bonus": -1,
+    "effect": "immovable_object",
+    "flavor": "Terrible drape. Excellent survivability."
+  },
+  {
+    "id": "absurd_sponsor_ham",
+    "name": "Absurd Sponsor Ham",
+    "type": "weapon",
+    "rarity": "absurd",
+    "attack_bonus": 9,
+    "defense_bonus": 1,
+    "luck_bonus": 2,
+    "effect": "meat_based_branding",
+    "flavor": "No one asked for it. The contract says you love it."
+  }
+]

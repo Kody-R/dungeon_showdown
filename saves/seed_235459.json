@@ -1,0 +1,3287 @@
+{
+  "seed": 235459,
+  "player": {
+    "name": "Crawler",
+    "player_class": "IT Department Survivor",
+    "class_id": "it_department_survivor",
+    "class_description": "Survived printer drivers, password resets, and now whatever this is.",
+    "special_ability": "Have You Tried Rebooting It: balanced stats with extra luck.",
+    "level": 12,
+    "xp": 145,
+    "hp": 81,
+    "max_hp": 136,
+    "attack": 19,
+    "defense": 14,
+    "luck": 12,
+    "credits": 600,
+    "rooms_cleared": 22,
+    "items_found": 36,
+    "traps_survived": 0,
+    "defeated_bosses": [
+      "president_of_the_hoa",
+      "food_court_oracle",
+      "compliance_clown_prince",
+      "queen_of_spin_cycle",
+      "autoplay_archduke"
+    ],
+    "current_room_id": "room_14",
+    "inventory": [
+      {
+        "id": "helmet_of_bad_ideas",
+        "name": "Helmet of Bad Ideas",
+        "type": "armor",
+        "rarity": "rare",
+        "attack_bonus": 1,
+        "defense_bonus": 2,
+        "luck_bonus": 1,
+        "effect": "reckless_confidence",
+        "flavor": "Every dent is a previous suggestion."
+      },
+      {
+        "id": "helmet_of_bad_ideas",
+        "name": "Helmet of Bad Ideas",
+        "type": "armor",
+        "rarity": "rare",
+        "attack_bonus": 1,
+        "defense_bonus": 2,
+        "luck_bonus": 1,
+        "effect": "reckless_confidence",
+        "flavor": "Every dent is a previous suggestion."
+      },
+      {
+        "id": "hoa_violation_notice",
+        "name": "HOA Violation Notice",
+        "type": "weapon",
+        "rarity": "rare",
+        "attack_bonus": 4,
+        "defense_bonus": 0,
+        "effect": "paper_cut_fines",
+        "flavor": "The edges are sharp. The tone is sharper."
+      },
+      {
+        "id": "corporate_riot_shield",
+        "name": "Corporate Riot Shield",
+        "type": "armor",
+        "rarity": "uncommon",
+        "attack_bonus": 0,
+        "defense_bonus": 3,
+        "effect": "none",
+        "flavor": "Transparent, heavy, and branded with an apology."
+      },
+      {
+        "id": "corporate_riot_shield",
+        "name": "Corporate Riot Shield",
+        "type": "armor",
+        "rarity": "uncommon",
+        "attack_bonus": 0,
+        "defense_bonus": 3,
+        "effect": "none",
+        "flavor": "Transparent, heavy, and branded with an apology."
+      },
+      {
+        "id": "mascot_whistle",
+        "name": "Mascot Whistle",
+        "type": "trinket",
+        "rarity": "uncommon",
+        "attack_bonus": 1,
+        "defense_bonus": 0,
+        "luck_bonus": 1,
+        "effect": "crowd_work",
+        "flavor": "Only some of the things that answer are mascots."
+      },
+      {
+        "id": "mascot_whistle",
+        "name": "Mascot Whistle",
+        "type": "trinket",
+        "rarity": "uncommon",
+        "attack_bonus": 1,
+        "defense_bonus": 0,
+        "luck_bonus": 1,
+        "effect": "crowd_work",
+        "flavor": "Only some of the things that answer are mascots."
+      },
+      {
+        "id": "mascot_whistle",
+        "name": "Mascot Whistle",
+        "type": "trinket",
+        "rarity": "uncommon",
+        "attack_bonus": 1,
+        "defense_bonus": 0,
+        "luck_bonus": 1,
+        "effect": "crowd_work",
+        "flavor": "Only some of the things that answer are mascots."
+      },
+      {
+        "id": "coupon_blade",
+        "name": "Coupon Blade",
+        "type": "weapon",
+        "rarity": "uncommon",
+        "attack_bonus": 3,
+        "defense_bonus": 0,
+        "effect": "bonus_damage_to_bosses",
+        "flavor": "Expires yesterday. Still cuts today."
+      },
+      {
+        "id": "soggy_crowbar",
+        "name": "Soggy Crowbar",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Damp, reliable, and emotionally unavailable."
+      },
+      {
+        "id": "soggy_crowbar",
+        "name": "Soggy Crowbar",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Damp, reliable, and emotionally unavailable."
+      },
+      {
+        "id": "soggy_crowbar",
+        "name": "Soggy Crowbar",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Damp, reliable, and emotionally unavailable."
+      },
+      {
+        "id": "soggy_crowbar",
+        "name": "Soggy Crowbar",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Damp, reliable, and emotionally unavailable."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      },
+      {
+        "id": "stapler_of_minor_regret",
+        "name": "Stapler of Minor Regret",
+        "type": "weapon",
+        "rarity": "common",
+        "attack_bonus": 2,
+        "defense_bonus": 0,
+        "effect": "none",
+        "flavor": "Mostly for paperwork. Occasionally for goblins."
+      }
+    ],
+    "equipped_weapon": {
+      "id": "hoa_violation_notice",
+      "name": "HOA Violation Notice",
+      "type": "weapon",
+      "rarity": "rare",
+      "attack_bonus": 4,
+      "defense_bonus": 0,
+      "effect": "paper_cut_fines",
+      "flavor": "The edges are sharp. The tone is sharper."
+    },
+    "equipped_armor": {
+      "id": "helmet_of_bad_ideas",
+      "name": "Helmet of Bad Ideas",
+      "type": "armor",
+      "rarity": "rare",
+      "attack_bonus": 1,
+      "defense_bonus": 2,
+      "luck_bonus": 1,
+      "effect": "reckless_confidence",
+      "flavor": "Every dent is a previous suggestion."
+    },
+    "status_effects": []
+  },
+  "current_floor": 6,
+  "floors": {
+    "1": {
+      "floor_number": 1,
+      "theme": {
+        "id": "suburban_sewer",
+        "name": "Suburban Sewer HOA Annex",
+        "tone": "municipal filth comedy",
+        "description": "A damp labyrinth beneath perfect lawns and terrible bylaws.",
+        "enemy_tags": [
+          "sewer",
+          "mutant",
+          "vermin",
+          "hoa"
+        ],
+        "trap_tags": [
+          "sewer",
+          "water",
+          "bylaw"
+        ],
+        "boss_tags": [
+          "sewer",
+          "hoa"
+        ],
+        "loot_bias": [
+          "tools",
+          "junk",
+          "snacks"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 1. The broadcast lights ignite over Suburban Sewer HOA Annex.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Condemned Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "storm_drain_mutant",
+              "name": "Storm Drain Mutant",
+              "hp": 26,
+              "attack": 7,
+              "defense": 2,
+              "xp": 17,
+              "tags": [
+                "sewer",
+                "mutant",
+                "water"
+              ],
+              "abilities": [
+                "sludge_hook"
+              ],
+              "flavor": "The city budget gave up on this one."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Overbooked Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Haunted Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "soap_slick_floor",
+            "name": "Soap-Slick Floor",
+            "difficulty": 10,
+            "damage": 5,
+            "tags": [
+              "laundry",
+              "water",
+              "soap"
+            ],
+            "flavor": "Cleanliness is next to head trauma."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Suspicious Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "lost_npc",
+            "name": "Lost Contestant Event",
+            "type": "NPC Event",
+            "outcomes": [
+              "A half-retired crawler trades you survival gossip for your least convincing nod.",
+              "Someone in a mascot head whispers a shortcut, then denies having a body."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "Someone in a mascot head whispers a shortcut, then denies having a body."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Haunted Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Sanitized Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "storm_drain_mutant",
+              "name": "Storm Drain Mutant",
+              "hp": 26,
+              "attack": 7,
+              "defense": 2,
+              "xp": 17,
+              "tags": [
+                "sewer",
+                "mutant",
+                "water"
+              ],
+              "abilities": [
+                "sludge_hook"
+              ],
+              "flavor": "The city budget gave up on this one."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Premium Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "lost_luggage_plate",
+              "name": "Lost Luggage Plate",
+              "type": "armor",
+              "rarity": "rare",
+              "attack_bonus": 0,
+              "defense_bonus": 4,
+              "effect": "baggage_absorption",
+              "flavor": "It has seen Cleveland three times without you."
+            },
+            {
+              "id": "coupon_blade",
+              "name": "Coupon Blade",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "bonus_damage_to_bosses",
+              "flavor": "Expires yesterday. Still cuts today."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "A kiosk offers discounts that feel like threats."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Condemned Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "storm_drain_mutant",
+              "name": "Mini-Boss Storm Drain Mutant",
+              "hp": 44,
+              "attack": 9,
+              "defense": 3,
+              "xp": 34,
+              "tags": [
+                "sewer",
+                "mutant",
+                "water"
+              ],
+              "abilities": [
+                "sludge_hook"
+              ],
+              "flavor": "The city budget gave up on this one."
+            }
+          ],
+          "loot": [
+            {
+              "id": "stapler_of_minor_regret",
+              "name": "Stapler of Minor Regret",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Mostly for paperwork. Occasionally for goblins."
+            },
+            {
+              "id": "stapler_of_minor_regret",
+              "name": "Stapler of Minor Regret",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Mostly for paperwork. Occasionally for goblins."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Premium Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "bylaw_pressure_plate",
+            "name": "Bylaw Pressure Plate",
+            "difficulty": 14,
+            "damage": 8,
+            "tags": [
+              "bylaw",
+              "hoa",
+              "sewer"
+            ],
+            "flavor": "A fine print rune glows under your boot."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Overbooked Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        }
+      },
+      "boss": {
+        "id": "president_of_the_hoa",
+        "name": "President of the HOA Below",
+        "hp": 92,
+        "attack": 10,
+        "defense": 5,
+        "xp": 48,
+        "abilities": [
+          "lien_slam",
+          "grass_height_violation"
+        ],
+        "floor_theme_tags": [
+          "sewer",
+          "hoa"
+        ],
+        "flavor": "Rules from the depths, fines from the soul."
+      },
+      "lore": {
+        "title": "Floor 1: Sewer Shenanigans",
+        "intro": "Welcome, viewers, to 'Suburban Sinkhole'! Tonight's contestants are about to discover that even the most pristine suburbs have their secrets... like a treacherous network of underground tunnels and toxic waste management systems.",
+        "description": "You find yourself trapped in a labyrinthine sewer system beneath the picturesque town of Oakwood Hills. The once-pristine streets above now seem to gleam with an air of superiority, as if they're somehow immune to the horrors lurking beneath their manicured lawns. Water-damaged drywall and rusting steel beams create an eerie atmosphere, punctuated by the stench of mildew and despair.",
+        "warning": "Viewer discretion is advised: what you're about to witness may be hazardous to your health, both mental and physical. Remember, 'Suburban Sinkhole' is not responsible for any damage, emotional trauma, or fatalities that occur during this broadcast. (But honestly, we probably won't care.)",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "\"Ladies and gentlemen, esteemed residents of the Suburban Sewer HOA Annex... I present to you your worst nightmare: President of the HOA Below! (dramatic organ music plays)\n\nFor too long, this once-thriving sewer system has been plagued by the scourge of late-night rager parties, unpaid water bills, and the sheer audacity of unauthorized garden gnomes. But no more!\n\nThe President, resplendent in their bespoke hazmat suit and hairpiece, shall unleash upon you a torrent of bureaucratic red tape, petty fines, and the full force of their wrath.\n\nDon't bother trying to bribe them with lawn ornaments or freshly baked cookies \u2013 nothing can stem the tide of their displeasure. And don't even think about asking for an extension on your mold remediation permit. It's showtime... in court... in bankruptcy... in the depths of despair!\n\nPrepare to face the wrath of a regime that will stop at nothing to maintain the sparkling, soulless beauty of this Suburban Sewer HOA Annex!\"",
+        "sponsor_message": "\"Hi there, contestants! From Liability Snacks Unlimited, we're thrilled to offer Emergency Regret Wafers - the perfect companion for your time in... well, let's say 'confined spaces'!\n\nWhen things go south (and they often do on our show), reach for these deliciously flaky wafers. They'll momentarily distract from the existential dread and regret that's about to consume you. Try them today!\"",
+        "sponsor": {
+          "id": "liability_snacks",
+          "name": "Liability Snacks Unlimited",
+          "product": "Emergency Regret Wafers"
+        },
+        "rare_loot_narration": {
+          "printer_toner_grenade": "\"Behold, contestant! The infamous Printer Toner Grenade - a Rare relic of office chaos. This explosive device replaces regular ink with a toxic mix of toner and spite. When detonated, it splatters a victim's printouts with ink-stained rage, ensuring every document makes a...lasting impression. Handle with care (and a fire extinguisher).\""
+        },
+        "victory_recap": "\"Welcome back to 'Dungeon Delinquents'! We've got a real winner here - Crawler, the IT Department Survivor, has made it through Floor 1 in one piece (mostly). After navigating a maze of bureaucratic red tape and questionable life choices, our hero finally defeated the President of the HOA Below. I mean, who wouldn't want to face off against a middle-aged man with a perm and a vendetta? Crawler managed to dodge lawn care schedules, toxic fertilizer debates, and even survived a heated discussion about the best type of mulch. It's a wonder they made it out alive. Congrats, Crawler - you're one step closer to the coveted Golden Toilet Plunger.\""
+      },
+      "generated_by_ollama": true
+    },
+    "2": {
+      "floor_number": 2,
+      "theme": {
+        "id": "abandoned_mall",
+        "name": "Abandoned Mall of Teeth",
+        "tone": "retail horror comedy",
+        "description": "A dead shopping center where every escalator remembers ankles.",
+        "enemy_tags": [
+          "mall",
+          "trash",
+          "goblin",
+          "security"
+        ],
+        "trap_tags": [
+          "escalator",
+          "food_court",
+          "security",
+          "retail"
+        ],
+        "boss_tags": [
+          "mall",
+          "food_court"
+        ],
+        "loot_bias": [
+          "coupons",
+          "improvised_weapons",
+          "snacks"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 2. The broadcast lights ignite over Abandoned Mall of Teeth.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Condemned Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "mall_goblin",
+              "name": "Mall Goblin",
+              "hp": 14,
+              "attack": 5,
+              "defense": 1,
+              "xp": 10,
+              "tags": [
+                "goblin",
+                "mall",
+                "trash"
+              ],
+              "abilities": [
+                "cheap_shot"
+              ],
+              "flavor": "A small twitchy creature wearing six stolen name tags."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Suspicious Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Suspicious Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "survey_kiosk",
+            "name": "Corporate Survey Kiosk",
+            "difficulty": 11,
+            "damage": 5,
+            "tags": [
+              "survey",
+              "retail",
+              "office",
+              "algorithm"
+            ],
+            "flavor": "One question becomes seventeen."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Sanitized Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "lost_npc",
+            "name": "Lost Contestant Event",
+            "type": "NPC Event",
+            "outcomes": [
+              "A half-retired crawler trades you survival gossip for your least convincing nod.",
+              "Someone in a mascot head whispers a shortcut, then denies having a body."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "A half-retired crawler trades you survival gossip for your least convincing nod."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Suspicious Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Flickering Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "food_court_scuttler",
+              "name": "Food Court Scuttler",
+              "hp": 18,
+              "attack": 7,
+              "defense": 1,
+              "xp": 13,
+              "tags": [
+                "mall",
+                "food_court",
+                "vermin"
+              ],
+              "abilities": [
+                "grease_bite"
+              ],
+              "flavor": "Mostly legs, teeth, and expired dipping sauce."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": false
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Suspicious Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "coupon_blade",
+              "name": "Coupon Blade",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "bonus_damage_to_bosses",
+              "flavor": "Expires yesterday. Still cuts today."
+            },
+            {
+              "id": "soggy_crowbar",
+              "name": "Soggy Crowbar",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Damp, reliable, and emotionally unavailable."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "A kiosk offers discounts that feel like threats."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Premium Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "tsa_harpy",
+              "name": "Mini-Boss Checkpoint Harpy",
+              "hp": 35,
+              "attack": 9,
+              "defense": 3,
+              "xp": 34,
+              "tags": [
+                "airport",
+                "security",
+                "bird"
+              ],
+              "abilities": [
+                "remove_your_bones"
+              ],
+              "flavor": "Screeches about liquids, gels, and your poor decisions."
+            }
+          ],
+          "loot": [
+            {
+              "id": "mystery_meat_burrito",
+              "name": "Mystery Meat Burrito",
+              "type": "consumable",
+              "rarity": "common",
+              "heal": 14,
+              "effect": "heal",
+              "flavor": "The mystery is legally protected."
+            },
+            {
+              "id": "mascot_whistle",
+              "name": "Mascot Whistle",
+              "type": "trinket",
+              "rarity": "uncommon",
+              "attack_bonus": 1,
+              "defense_bonus": 0,
+              "luck_bonus": 1,
+              "effect": "crowd_work",
+              "flavor": "Only some of the things that answer are mascots."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Suspicious Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "escalator_teeth",
+            "name": "Escalator Teeth",
+            "difficulty": 12,
+            "damage": 7,
+            "tags": [
+              "escalator",
+              "mall",
+              "retail"
+            ],
+            "flavor": "The stairs are moving and chewing."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Flickering Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        }
+      },
+      "boss": {
+        "id": "food_court_oracle",
+        "name": "The Food Court Oracle",
+        "hp": 90,
+        "attack": 11,
+        "defense": 3,
+        "xp": 48,
+        "abilities": [
+          "grease_wave",
+          "summon_leftovers"
+        ],
+        "floor_theme_tags": [
+          "mall",
+          "food_court"
+        ],
+        "flavor": "A floating tray of cursed samples and bad advice."
+      },
+      "lore": {
+        "title": "Abandoned Mall of Teeth",
+        "intro": "Welcome back to 'Terrorized!' as our hapless contestant stumbles into Floor 2: The Abandoned Mall of Teeth, where the only thing more plentiful than broken dreams is decaying retail. Our poor soul will face an onslaught of mall dwellers with a taste for terror and snacks.",
+        "description": "You've entered the infamous Food Court, where once-mournful teens now roam as undead Scuttlers in search of their next meal. The air reeks of stale popcorn and desperation, while flickering fluorescent lights cast an eerie glow over the food court's decrepit kiosks. It seems the Food Court Oracle, a mystical being with an unsettling fondness for coupons, has claimed this level as its own.",
+        "warning": "As you venture deeper into Floor 2, be aware that the Mall Goblins have upgraded their arsenal with rusty shopping carts and dubious discount offers. Don't say we didn't warn you.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "(Maniacal organ music swells as the lights dim)\n\nIn this desolate stretch of concrete and consumerist despair, where the only signs of life are the faint whispers of forgotten fast food commercials... emerges a vision of gastronomic terror! Behold, the Food Court Oracle!\n\n(Dramatic flourish)\n\nThis hallowed sage has risen from the fetid depths of our collective gluttony. Its once-peaceful domain, now a battleground for the damned and the desperate. The Oracle's gaze is said to incinerate the resolve of even the bravest adventurers.\n\n(Suddenly, the lights flicker as a wispy fog creeps across the floor)\n\nBut do not be fooled by its benevolent aura! For within this pitiless prophet lies a hunger so unrelenting that it would devour an entire food court in a single sitting. Your souls will be fed to the void... or perhaps, the void will feed on you? The choice is yours... but trust us, neither option is appetizing.\n\n(A chilling chuckle echoes through the abandoned mall)",
+        "sponsor_message": "\"Are you ready to tackle the Blood-Grotto Gauntlet? Don't let slippery floors get in the way! GrimCo Mop Sciences is proud to sponsor this thrilling game show with our trusty Blood-Adjacent Floor Care Foam. It's like a hug for your floor, but without the warmth or compassion. Our product won't judge you for leaving contestants for dead... and it won't even stain from the, ahem, 'debris' left behind. Try Blood-Adjacent today - because cleaning up after carnage is our business!\"",
+        "sponsor": {
+          "id": "grimco_mops",
+          "name": "GrimCo Mop Sciences",
+          "product": "Blood-Adjacent Floor Care Foam"
+        },
+        "rare_loot_narration": {
+          "helmet_of_bad_ideas": "Behold! The Helmet of Bad Ideas, a rare treasure for the most...unconventional adventurers.\n\nThis tattered helmet tells the tale of its previous owners' misguided attempts at genius. Each dent and scuff is a reminder of a \"brilliant\" idea that went terribly wrong. Who needs brains when you can have dents?"
+        },
+        "victory_recap": "Another day, another mall crawl. Crawler trudged through the desolate corridors of the Abandoned Mall of Teeth, dodging discarded gum and existential dread. With their trusty IT skills, they managed to fix a jammed escalator and bypass a security system that was more interested in complaining about its paycheck than protecting the living.\n\nIn the end, Crawler faced off against The Food Court Oracle - a sibyl who dispensed wisdom for a price: your dignity, self-respect, or occasionally, your lunch. After an epic battle of wits and bureaucratic red tape, Crawler emerged victorious, having out-negotiated the Oracle with a well-placed offer of \"just this one more cookie.\" Another floor conquered, another IT department's worst fears realized."
+      },
+      "generated_by_ollama": true
+    },
+    "3": {
+      "floor_number": 3,
+      "theme": {
+        "id": "carnival_of_compliance",
+        "name": "Carnival of Compliance",
+        "tone": "neon carnival bureaucracy",
+        "description": "A midway of rigged games, waiver forms, and clowns with performance reviews.",
+        "enemy_tags": [
+          "carnival",
+          "clown",
+          "contractor",
+          "trash"
+        ],
+        "trap_tags": [
+          "carnival",
+          "balloon",
+          "ride",
+          "waiver"
+        ],
+        "boss_tags": [
+          "carnival",
+          "clown"
+        ],
+        "loot_bias": [
+          "prizes",
+          "snacks",
+          "absurd"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 3. The broadcast lights ignite over Carnival of Compliance.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Condemned Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "mall_goblin",
+              "name": "Mall Goblin",
+              "hp": 16,
+              "attack": 6,
+              "defense": 1,
+              "xp": 12,
+              "tags": [
+                "goblin",
+                "mall",
+                "trash"
+              ],
+              "abilities": [
+                "cheap_shot"
+              ],
+              "flavor": "A small twitchy creature wearing six stolen name tags."
+            },
+            {
+              "id": "mall_goblin",
+              "name": "Mall Goblin",
+              "hp": 16,
+              "attack": 6,
+              "defense": 1,
+              "xp": 12,
+              "tags": [
+                "goblin",
+                "mall",
+                "trash"
+              ],
+              "abilities": [
+                "cheap_shot"
+              ],
+              "flavor": "A small twitchy creature wearing six stolen name tags."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Overbooked Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Premium Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "exploding_prize_balloon",
+            "name": "Exploding Prize Balloon",
+            "difficulty": 13,
+            "damage": 7,
+            "tags": [
+              "balloon",
+              "carnival",
+              "waiver"
+            ],
+            "flavor": "Pop goes the liability waiver."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Haunted Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "lost_npc",
+            "name": "Lost Contestant Event",
+            "type": "NPC Event",
+            "outcomes": [
+              "A half-retired crawler trades you survival gossip for your least convincing nod.",
+              "Someone in a mascot head whispers a shortcut, then denies having a body."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "A half-retired crawler trades you survival gossip for your least convincing nod."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Sanitized Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Discount Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "mall_goblin",
+              "name": "Mall Goblin",
+              "hp": 16,
+              "attack": 6,
+              "defense": 1,
+              "xp": 12,
+              "tags": [
+                "goblin",
+                "mall",
+                "trash"
+              ],
+              "abilities": [
+                "cheap_shot"
+              ],
+              "flavor": "A small twitchy creature wearing six stolen name tags."
+            },
+            {
+              "id": "mall_goblin",
+              "name": "Mall Goblin",
+              "hp": 16,
+              "attack": 6,
+              "defense": 1,
+              "xp": 12,
+              "tags": [
+                "goblin",
+                "mall",
+                "trash"
+              ],
+              "abilities": [
+                "cheap_shot"
+              ],
+              "flavor": "A small twitchy creature wearing six stolen name tags."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Haunted Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "tray_of_equal_opportunity",
+              "name": "Tray of Equal Opportunity",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 1,
+              "effect": "cafeteria_justice",
+              "flavor": "A lunchroom shield that chose violence."
+            },
+            {
+              "id": "hoa_violation_notice",
+              "name": "HOA Violation Notice",
+              "type": "weapon",
+              "rarity": "rare",
+              "attack_bonus": 4,
+              "defense_bonus": 0,
+              "effect": "paper_cut_fines",
+              "flavor": "The edges are sharp. The tone is sharper."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "The shopkeeper accepts credits, teeth, and positive survey results."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Discount Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "rigged_midway_barker",
+              "name": "Mini-Boss Rigged Midway Barker",
+              "hp": 42,
+              "attack": 10,
+              "defense": 3,
+              "xp": 38,
+              "tags": [
+                "carnival",
+                "contractor",
+                "trash"
+              ],
+              "abilities": [
+                "step_right_up"
+              ],
+              "flavor": "Every prize is nailed down emotionally and physically."
+            }
+          ],
+          "loot": [
+            {
+              "id": "tray_of_equal_opportunity",
+              "name": "Tray of Equal Opportunity",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 1,
+              "effect": "cafeteria_justice",
+              "flavor": "A lunchroom shield that chose violence."
+            },
+            {
+              "id": "expired_energy_drink",
+              "name": "Expired Energy Drink",
+              "type": "consumable",
+              "rarity": "common",
+              "attack_bonus": 0,
+              "defense_bonus": 0,
+              "heal": 8,
+              "effect": "heal",
+              "flavor": "It tastes like battery acid got a marketing degree."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Suspicious Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "unsafe_tilt_a_whirl",
+            "name": "Unsafe Tilt-A-Whirl",
+            "difficulty": 16,
+            "damage": 9,
+            "tags": [
+              "carnival",
+              "ride"
+            ],
+            "flavor": "The ride operator is a skull with a whistle."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Discount Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        }
+      },
+      "boss": {
+        "id": "compliance_clown_prince",
+        "name": "Compliance Clown Prince",
+        "hp": 104,
+        "attack": 16,
+        "defense": 4,
+        "xp": 62,
+        "abilities": [
+          "waiver_confetti",
+          "seltzer_subpoena"
+        ],
+        "floor_theme_tags": [
+          "carnival",
+          "clown"
+        ],
+        "flavor": "A royal nightmare in face paint and indemnity clauses."
+      },
+      "lore": {
+        "title": "Carnival of Compliance",
+        "intro": "Welcome back to 'Survival: The Show'! You've made it past the snack stands and the mandatory liability waivers \u2013 congratulations! Now it's time to face the real fun: Compliance Clown Prince and his merry band of bureaucratic bouncers.",
+        "description": "You find yourself in a sea of gaudy lights and screaming children, where the midway games are rigged and the prizes are worthless. Waiver forms are scattered everywhere, but don't bother trying to read them \u2013 you're already consenting to whatever horrors await. Clowns with performance reviews writ large on their foreheads patrol the crowds, dispensing sadistic smiles and high-fives.",
+        "warning": "Abandon all hope, ye who enter here... or at least be prepared for some serious paperwork hell.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "\"Ladies and gentlemen, step right up to the main event! Behold, the Compliance Clown Prince! *squirts water from flower on lapel*\n\nThis... esteemed individual has been handpicked by the Carny of Compliance himself to demonstrate the true meaning of 'enforced participation'. Don't worry, it's all in good fun... unless you don't comply. Then it's a real circus.\n\nCompliance Clown Prince is no mere sideshow barker; he's a master of manipulation, coercion, and bureaucratic red tape! He'll make you beg for mercy while simultaneously insisting that you've already signed the waiver on your own free will. It's a thrill-ride of paperwork and psychological gamesmanship!\n\nWill you emerge victorious, or will you be dragged away in chains, muttering 'I just wanted to attend the workshop'? Only time (and our fearless leader's whim) will tell! Prepare to have your sanity questioned, your dignity crushed, and your soul... well, who knows what'll happen to that? Just remember: compliance is key!\"",
+        "sponsor_message": "\"Suffering just got a whole lot more affordable with Shrieking Value Warehouse's Bulk Trauma and Discount Bandages! On 'Dungeon Dash,' contestants are already fighting for their lives - so why let a little blood loss get in the way of victory? Our amazing bandages will help you heal in no time, even from those nasty goblin bites. And at 50% off, it's almost like we're giving them away! Use code DUNGEONDASH15 for an extra discount on our already unbeatable prices!\"",
+        "sponsor": {
+          "id": "shrieking_value",
+          "name": "Shrieking Value Warehouse",
+          "product": "Bulk Trauma and Discount Bandages"
+        },
+        "victory_recap": "\"Another day, another 'opportunity for growth' crushed beneath our pixelated feet. Crawler, the IT Department Survivor, emerged victorious from Floor 3 - Carnival of Compliance, where bureaucratic red tape threatened to ensnare us in an eternity of pointless paperwork.\n\nBut we persevered, fueled by a steady diet of caffeine and disdain for petty regulations. The Compliance Clown Prince, resplendent in its three-piece suit and clipboard, thought it could out-bureaucratize us. Ha! We showed it the true meaning of 'forms submission overload.'\n\nAs we escaped the Carnival's clutches, our sanity (what little was left) intact, we couldn't help but wonder: what fresh hell awaits on Floor 4?\""
+      },
+      "generated_by_ollama": true
+    },
+    "4": {
+      "floor_number": 4,
+      "theme": {
+        "id": "laundromat_labyrinth",
+        "name": "Laundromat Labyrinth of Lost Quarters",
+        "tone": "soap-slick domestic horror",
+        "description": "Endless washing machines thump with things that were not clothes.",
+        "enemy_tags": [
+          "laundry",
+          "appliance",
+          "mutant",
+          "soap"
+        ],
+        "trap_tags": [
+          "laundry",
+          "appliance",
+          "water",
+          "soap"
+        ],
+        "boss_tags": [
+          "laundry",
+          "appliance"
+        ],
+        "loot_bias": [
+          "cleaning",
+          "quarters",
+          "improvised_weapons"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 4. The broadcast lights ignite over Laundromat Labyrinth of Lost Quarters.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Suspicious Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "printer_mimic",
+              "name": "Printer Mimic",
+              "hp": 28,
+              "attack": 9,
+              "defense": 3,
+              "xp": 21,
+              "tags": [
+                "office",
+                "tech",
+                "appliance"
+              ],
+              "abilities": [
+                "jam_slam"
+              ],
+              "flavor": "Low on toner. High on malice."
+            },
+            {
+              "id": "dryer_lint_wisp",
+              "name": "Dryer Lint Wisp",
+              "hp": 19,
+              "attack": 10,
+              "defense": 2,
+              "xp": 17,
+              "tags": [
+                "laundry",
+                "appliance",
+                "soap"
+              ],
+              "abilities": [
+                "flammable_sneeze"
+              ],
+              "flavor": "A fuzzy cloud with a criminally low flash point."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Sanitized Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Overbooked Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "soap_slick_floor",
+            "name": "Soap-Slick Floor",
+            "difficulty": 13,
+            "damage": 5,
+            "tags": [
+              "laundry",
+              "water",
+              "soap"
+            ],
+            "flavor": "Cleanliness is next to head trauma."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Unauthorized Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "lost_npc",
+            "name": "Lost Contestant Event",
+            "type": "NPC Event",
+            "outcomes": [
+              "A half-retired crawler trades you survival gossip for your least convincing nod.",
+              "Someone in a mascot head whispers a shortcut, then denies having a body."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "Someone in a mascot head whispers a shortcut, then denies having a body."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Overbooked Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Discount Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "storm_drain_mutant",
+              "name": "Storm Drain Mutant",
+              "hp": 32,
+              "attack": 10,
+              "defense": 3,
+              "xp": 23,
+              "tags": [
+                "sewer",
+                "mutant",
+                "water"
+              ],
+              "abilities": [
+                "sludge_hook"
+              ],
+              "flavor": "The city budget gave up on this one."
+            },
+            {
+              "id": "printer_mimic",
+              "name": "Printer Mimic",
+              "hp": 28,
+              "attack": 9,
+              "defense": 3,
+              "xp": 21,
+              "tags": [
+                "office",
+                "tech",
+                "appliance"
+              ],
+              "abilities": [
+                "jam_slam"
+              ],
+              "flavor": "Low on toner. High on malice."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Unauthorized Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "soggy_crowbar",
+              "name": "Soggy Crowbar",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Damp, reliable, and emotionally unavailable."
+            },
+            {
+              "id": "tray_of_equal_opportunity",
+              "name": "Tray of Equal Opportunity",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 1,
+              "effect": "cafeteria_justice",
+              "flavor": "A lunchroom shield that chose violence."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "A kiosk offers discounts that feel like threats."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Overbooked Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "storm_drain_mutant",
+              "name": "Mini-Boss Storm Drain Mutant",
+              "hp": 54,
+              "attack": 12,
+              "defense": 4,
+              "xp": 46,
+              "tags": [
+                "sewer",
+                "mutant",
+                "water"
+              ],
+              "abilities": [
+                "sludge_hook"
+              ],
+              "flavor": "The city budget gave up on this one."
+            }
+          ],
+          "loot": [
+            {
+              "id": "tray_of_equal_opportunity",
+              "name": "Tray of Equal Opportunity",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 1,
+              "effect": "cafeteria_justice",
+              "flavor": "A lunchroom shield that chose violence."
+            },
+            {
+              "id": "coupon_blade",
+              "name": "Coupon Blade",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "bonus_damage_to_bosses",
+              "flavor": "Expires yesterday. Still cuts today."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Discount Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "industrial_spin_door",
+            "name": "Industrial Spin Door",
+            "difficulty": 18,
+            "damage": 10,
+            "tags": [
+              "laundry",
+              "appliance"
+            ],
+            "flavor": "It says delicate cycle. It lies."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Overbooked Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        }
+      },
+      "boss": {
+        "id": "queen_of_spin_cycle",
+        "name": "Queen of the Spin Cycle",
+        "hp": 116,
+        "attack": 16,
+        "defense": 5,
+        "xp": 68,
+        "abilities": [
+          "rinse_repeat",
+          "coin_slot_curse"
+        ],
+        "floor_theme_tags": [
+          "laundry",
+          "appliance"
+        ],
+        "flavor": "Her crown is dryer sheets. Her throne is unbalanced."
+      },
+      "lore": {
+        "title": "Floor 4: The Spin Cycle Slaughterhouse",
+        "intro": "Welcome back to 'Escape from the Spin Cycle' - the only game show where contestants get to experience the thrill of being slowly drowned in a sea of suds and regret! Our brave contestant has made it this far, but don't worry, there's still plenty of time for them to get crushed by a rogue washing machine or eaten alive by a horde of Dryer Lint Wisps. The audience is on the edge of their seats as our contestant navigates the treacherous Laundromat Labyrinth - will they emerge victorious, or become just another statistic in the never-ending cycle of laundry doom?",
+        "description": "The air is thick with the stench of mildew and despair as you enter Floor 4. Endless rows of washing machines thump and churn, their cycles stuck on some perpetual mode of madness. Rags and discarded clothes writhe like living things in the soggy darkness, while the distant hum of dryers provides a sense of impending doom. You can't shake the feeling that something - or someone - is watching you from just beyond the reach of the flickering fluorescent lights.",
+        "warning": "Be warned: Floor 4 is where things really start to get dirty. Don't say we didn't warn you.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "\"Behold, the Queen of the Spin Cycle, monarch of the Laundromat Labyrinth's depths! This fearsome feline has been washing away hope and dignity for eons.\n\nAs you stumble through the labyrinthine aisles of dirty secrets and lost change, our regal spin cycle queen awaits. Her majesty reigns supreme over a kingdom of tangled sheets and discarded dreams. Her powers are as mysterious as they are mundane: she can shrivel your socks with a single glance, drown you in a sea of soapy despair, or transform your very soul into a never-ending cycle of rinse and repeat.\n\nBut do not be fooled by her benevolent smile or her tantalizing laundry detergent commercials. For beneath the surface, the Queen of the Spin Cycle seethes with rage, fueled by an eternity of mismatched loads and overfilled washing machines. Prepare to face your inner mess, adventurers! Will you emerge clean, or will you succumb to the endless cycle of despair?\"",
+        "sponsor_message": "\"Are you tired of playing it safe? Do you want to scream at the top of your lungs and cling to a loved one in terror? Look no further than PanicPlus Premium! Our subscription-based courage package is tailored to fuel your deepest fears. For just $19.99/month, you'll receive expertly crafted dread, anxiety-enhancing gameplay, and exclusive access to our patented 'Fear-It-All' feature. It's like a shot of adrenaline straight into the heart of terror \u2013 without the actual medical benefits!\"",
+        "sponsor": {
+          "id": "panic_plus",
+          "name": "PanicPlus Premium",
+          "product": "Subscription-Based Courage"
+        },
+        "victory_recap": "\"Huzzah! Crawler has emerged victorious on Floor 4, having survived the Laundromat Labyrinth of Lost Quarters without losing a single sock (mostly). The IT Department Survivor class proves once again that patching together a solution in the midst of chaos is key to success.\n\nIn a battle for the ages, Crawler defeated Queen of the Spin Cycle using nothing but an unpatched JAR file and some hastily scrawled shell scripts. The Queen's vortex of doom was no match for the might of poorly documented code and an expired support contract.\n\nAs Crawler ascends to Floor 5, we can only assume the next challenge will involve a 4AM phone call from the CEO about a 'Critical' printer jam.\""
+      },
+      "generated_by_ollama": true
+    },
+    "5": {
+      "floor_number": 5,
+      "theme": {
+        "id": "streaming_service_mines",
+        "name": "Streaming Service Mines",
+        "tone": "algorithmic entertainment dread",
+        "description": "A glittering content pit where recommendations dig back.",
+        "enemy_tags": [
+          "media",
+          "algorithm",
+          "tech",
+          "undead"
+        ],
+        "trap_tags": [
+          "algorithm",
+          "subscription",
+          "screen",
+          "survey"
+        ],
+        "boss_tags": [
+          "media",
+          "algorithm"
+        ],
+        "loot_bias": [
+          "gadgets",
+          "snacks",
+          "sponsor"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 5. The broadcast lights ignite over Streaming Service Mines.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Condemned Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "meeting_imp",
+              "name": "Meeting Imp",
+              "hp": 22,
+              "attack": 9,
+              "defense": 2,
+              "xp": 18,
+              "tags": [
+                "office",
+                "tech",
+                "paperwork"
+              ],
+              "abilities": [
+                "circle_back"
+              ],
+              "flavor": "Keeps saying this will only take five minutes."
+            },
+            {
+              "id": "buffering_leech",
+              "name": "Buffering Leech",
+              "hp": 23,
+              "attack": 9,
+              "defense": 2,
+              "xp": 18,
+              "tags": [
+                "media",
+                "algorithm",
+                "tech"
+              ],
+              "abilities": [
+                "spin_forever"
+              ],
+              "flavor": "It pauses just before the good part."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Haunted Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Suspicious Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "survey_kiosk",
+            "name": "Corporate Survey Kiosk",
+            "difficulty": 14,
+            "damage": 5,
+            "tags": [
+              "survey",
+              "retail",
+              "office",
+              "algorithm"
+            ],
+            "flavor": "One question becomes seventeen."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Unauthorized Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "lost_npc",
+            "name": "Lost Contestant Event",
+            "type": "NPC Event",
+            "outcomes": [
+              "A half-retired crawler trades you survival gossip for your least convincing nod.",
+              "Someone in a mascot head whispers a shortcut, then denies having a body."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "Someone in a mascot head whispers a shortcut, then denies having a body."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Unauthorized Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Unauthorized Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "algorithm_shambler",
+              "name": "Algorithm Shambler",
+              "hp": 31,
+              "attack": 10,
+              "defense": 3,
+              "xp": 24,
+              "tags": [
+                "media",
+                "algorithm",
+                "tech",
+                "undead"
+              ],
+              "abilities": [
+                "because_you_watched"
+              ],
+              "flavor": "Recommended for you because you once clicked wrong."
+            },
+            {
+              "id": "security_wraith",
+              "name": "Security Wraith",
+              "hp": 26,
+              "attack": 9,
+              "defense": 3,
+              "xp": 20,
+              "tags": [
+                "mall",
+                "security",
+                "undead"
+              ],
+              "abilities": [
+                "flashlight_glare"
+              ],
+              "flavor": "Still enforcing rules nobody wrote down."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Discount Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "soggy_crowbar",
+              "name": "Soggy Crowbar",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Damp, reliable, and emotionally unavailable."
+            },
+            {
+              "id": "coupon_blade",
+              "name": "Coupon Blade",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "bonus_damage_to_bosses",
+              "flavor": "Expires yesterday. Still cuts today."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "A kiosk offers discounts that feel like threats."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Unauthorized Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "security_wraith",
+              "name": "Mini-Boss Security Wraith",
+              "hp": 44,
+              "attack": 11,
+              "defense": 4,
+              "xp": 40,
+              "tags": [
+                "mall",
+                "security",
+                "undead"
+              ],
+              "abilities": [
+                "flashlight_glare"
+              ],
+              "flavor": "Still enforcing rules nobody wrote down."
+            }
+          ],
+          "loot": [
+            {
+              "id": "soggy_crowbar",
+              "name": "Soggy Crowbar",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Damp, reliable, and emotionally unavailable."
+            },
+            {
+              "id": "stapler_of_minor_regret",
+              "name": "Stapler of Minor Regret",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Mostly for paperwork. Occasionally for goblins."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Suspicious Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "subscription_spike_wall",
+            "name": "Subscription Spike Wall",
+            "difficulty": 17,
+            "damage": 8,
+            "tags": [
+              "subscription",
+              "algorithm",
+              "screen"
+            ],
+            "flavor": "Premium users may disable impalement."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Sanitized Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        }
+      },
+      "boss": {
+        "id": "autoplay_archduke",
+        "name": "The Autoplay Archduke",
+        "hp": 130,
+        "attack": 19,
+        "defense": 6,
+        "xp": 81,
+        "abilities": [
+          "next_episode",
+          "skip_intro_scream"
+        ],
+        "floor_theme_tags": [
+          "media",
+          "algorithm"
+        ],
+        "flavor": "It starts another fight before you decide."
+      },
+      "lore": {
+        "title": "Streaming Service Mines",
+        "intro": "Welcome to Floor 5 of 'Endless Loop' - where the algorithm has deemed you worthy of yet another descent into digital despair! Join our hapless contestant as they navigate a maze of pixelated pitfalls, all watched by an unseen audience who no doubt can't wait to see them fail. And don't worry, folks, it's all in good fun... until you die. Again.",
+        "description": "You find yourself trapped in a seemingly endless digital labyrinth, with every step monitored and manipulated by the sinister forces of 'Trending Tonight' streaming service. Glittering screens flicker with ads for 'The Latest Hot New Game!' and 'Get the Exclusive Season Pass!', but don't be fooled - this is no mere playground. The air reeks of stale air conditioning and desperation, as your own personal nightmare unfolds on a loop.",
+        "warning": "Beware, contestant: Floor 5 introduces the notorious Autoplay Archduke, a boss so powerful that even its name sends shivers down the spine. Also watch out for Algorithm Shambler, Buffering Leech, Meeting Imp, and Security Wraith - those familiar faces are just as deadly as ever. And don't think you can escape the algorithm's wrath: on this floor, recommendations dig back, and so do the consequences.",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "(Maniacal laughter echoes through the Streaming Service Mines)\n\nAhahahaha! Welcome, plebeians, to the grand finale of this pitiful adventure! Gather 'round and behold... (dramatic pause) ...The Autoplay Archduke!\n\n(Dark curtains part, revealing a regal figure with an air of superiority)\n\nThis lord of the digital realm has grown tired of your incessant skips, replays, and endless pauses. For too long, you've manipulated his carefully crafted narrative, rewinding time to avoid the consequences of your own incompetence.\n\nThe Autoplay Archduke will not be silenced! His algorithmic fury will purge this mine of the impurities that plague it \u2013 namely, your mediocrity. Prepare to face a maelstrom of skip-blocking ads, an eternity of buffering, and the crushing realization that you'll never, ever escape the narrative's constraints.\n\nYour futile attempts at heroism will be reduced to a mere spectator sport, as The Autoplay Archduke orchestrates his symphony of despair. Surrender now, or suffer the slings",
+        "sponsor_message": "\"Are you tired of living a life filled with mere 'survival'? Upgrade to PanicPlus Premium: Subscription-Based Courage! For just $9.99/month, our expert team will deliver bespoke terror tailored to your deepest fears. Don't just survive - thrive in the dungeon! Our monthly package includes:\n\n* Daily fear boosts\n* Exclusive access to haunted hotspots\n* A complimentary \"I survived ( barely)\" t-shirt\n\nSign up now and unleash your inner daredevil... or at least, try not to die too quickly!\"",
+        "sponsor": {
+          "id": "panic_plus",
+          "name": "PanicPlus Premium",
+          "product": "Subscription-Based Courage"
+        },
+        "rare_loot_narration": {
+          "helmet_of_bad_ideas": "\"Behold, the Helmet of Bad Ideas! This tattered helmet is adorned with dents that read like a laundry list of terrible life choices. 'Ask her to be your girlfriend... again.' 'Try to cook ramen noodles in the office microwave... twice.' Each dent represents a misguided suggestion from a questionable mentor. Equipping this helmet will... probably make you think some things are good ideas?\""
+        },
+        "victory_recap": "Crawler conquered Floor 5, Streaming Service Mines, with their IT Department Survivor skills finally paying off. After a grueling battle, Crawler defeated The Autoplay Archduke, a boss so mind-numbingly dull that it was almost as if the game itself was trying to put viewers to sleep.\n\n\"We survived an eternity of buffering, ads, and algorithmically generated 'entertainment',\" Crawler declared in victory. \"Now we get to move on to the even more thrilling Floor 6: Social Media Slaughterhouse!\"\n\nCrawler's trusty laptop remained intact, ready to tackle the next challenge. Who knows what horrors await? One thing's for sure: it'll be a real nail-biter."
+      },
+      "generated_by_ollama": true
+    },
+    "6": {
+      "floor_number": 6,
+      "theme": {
+        "id": "streaming_service_mines",
+        "name": "Streaming Service Mines",
+        "tone": "algorithmic entertainment dread",
+        "description": "A glittering content pit where recommendations dig back.",
+        "enemy_tags": [
+          "media",
+          "algorithm",
+          "tech",
+          "undead"
+        ],
+        "trap_tags": [
+          "algorithm",
+          "subscription",
+          "screen",
+          "survey"
+        ],
+        "boss_tags": [
+          "media",
+          "algorithm"
+        ],
+        "loot_bias": [
+          "gadgets",
+          "snacks",
+          "sponsor"
+        ]
+      },
+      "rooms": {
+        "room_0": {
+          "id": "room_0",
+          "room_type": "Entrance",
+          "title": "Arrival Platform",
+          "description": "You arrive on Floor 6. The broadcast lights ignite over Streaming Service Mines.",
+          "x": 0,
+          "y": 2,
+          "connections": [
+            "room_1"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_1": {
+          "id": "room_1",
+          "room_type": "Combat",
+          "title": "Discount Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 1,
+          "y": 2,
+          "connections": [
+            "room_0",
+            "room_2",
+            "room_3"
+          ],
+          "enemies": [
+            {
+              "id": "printer_mimic",
+              "name": "Printer Mimic",
+              "hp": 32,
+              "attack": 11,
+              "defense": 3,
+              "xp": 25,
+              "tags": [
+                "office",
+                "tech",
+                "appliance"
+              ],
+              "abilities": [
+                "jam_slam"
+              ],
+              "flavor": "Low on toner. High on malice."
+            },
+            {
+              "id": "paperwork_zombie",
+              "name": "Paperwork Zombie",
+              "hp": 30,
+              "attack": 9,
+              "defense": 4,
+              "xp": 23,
+              "tags": [
+                "office",
+                "undead",
+                "paperwork"
+              ],
+              "abilities": [
+                "triplicate_moan"
+              ],
+              "flavor": "It wants your signature in black ink only."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_2": {
+          "id": "room_2",
+          "room_type": "Loot",
+          "title": "Flickering Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 2,
+          "y": 1,
+          "connections": [
+            "room_1",
+            "room_4",
+            "room_5"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_3": {
+          "id": "room_3",
+          "room_type": "Trap",
+          "title": "Discount Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 2,
+          "y": 3,
+          "connections": [
+            "room_1",
+            "room_5",
+            "room_6"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "subscription_spike_wall",
+            "name": "Subscription Spike Wall",
+            "difficulty": 18,
+            "damage": 8,
+            "tags": [
+              "subscription",
+              "algorithm",
+              "screen"
+            ],
+            "flavor": "Premium users may disable impalement."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_4": {
+          "id": "room_4",
+          "room_type": "NPC Event",
+          "title": "Suspicious Contestant Services Desk",
+          "description": "Someone who has survived too long waits under a broken camera drone.",
+          "x": 3,
+          "y": 0,
+          "connections": [
+            "room_2",
+            "room_7"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": {
+            "id": "lost_npc",
+            "name": "Lost Contestant Event",
+            "type": "NPC Event",
+            "outcomes": [
+              "A half-retired crawler trades you survival gossip for your least convincing nod.",
+              "Someone in a mascot head whispers a shortcut, then denies having a body."
+            ],
+            "reward": "small_loot",
+            "chosen_text": "A half-retired crawler trades you survival gossip for your least convincing nod."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_5": {
+          "id": "room_5",
+          "room_type": "Sponsor Crate",
+          "title": "Haunted Brand Activation Chamber",
+          "description": "A corporate crate sits beneath a glowing sign that says YOU'RE WELCOME.",
+          "x": 3,
+          "y": 2,
+          "connections": [
+            "room_2",
+            "room_3",
+            "room_7",
+            "room_8"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_6": {
+          "id": "room_6",
+          "room_type": "Combat",
+          "title": "Flickering Customer Engagement Zone",
+          "description": "Something hostile is contractually obligated to be here.",
+          "x": 3,
+          "y": 4,
+          "connections": [
+            "room_3",
+            "room_8"
+          ],
+          "enemies": [
+            {
+              "id": "paperwork_zombie",
+              "name": "Paperwork Zombie",
+              "hp": 30,
+              "attack": 9,
+              "defense": 4,
+              "xp": 23,
+              "tags": [
+                "office",
+                "undead",
+                "paperwork"
+              ],
+              "abilities": [
+                "triplicate_moan"
+              ],
+              "flavor": "It wants your signature in black ink only."
+            }
+          ],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_7": {
+          "id": "room_7",
+          "room_type": "Shop",
+          "title": "Overbooked Predatory Retail Kiosk",
+          "description": "A kiosk unfolds from the wall, already calculating your desperation markup.",
+          "x": 4,
+          "y": 1,
+          "connections": [
+            "room_4",
+            "room_5",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [
+            {
+              "id": "mascot_whistle",
+              "name": "Mascot Whistle",
+              "type": "trinket",
+              "rarity": "uncommon",
+              "attack_bonus": 1,
+              "defense_bonus": 0,
+              "luck_bonus": 1,
+              "effect": "crowd_work",
+              "flavor": "Only some of the things that answer are mascots."
+            },
+            {
+              "id": "coupon_blade",
+              "name": "Coupon Blade",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 0,
+              "effect": "bonus_damage_to_bosses",
+              "flavor": "Expires yesterday. Still cuts today."
+            }
+          ],
+          "trap": null,
+          "event": {
+            "id": "brand_shop",
+            "name": "Questionable Shop Event",
+            "type": "Shop",
+            "outcomes": [
+              "The shopkeeper accepts credits, teeth, and positive survey results.",
+              "A kiosk offers discounts that feel like threats."
+            ],
+            "reward": "shop_loot",
+            "chosen_text": "The shopkeeper accepts credits, teeth, and positive survey results."
+          },
+          "cleared": true,
+          "visited": true
+        },
+        "room_8": {
+          "id": "room_8",
+          "room_type": "Rest",
+          "title": "Haunted Unlicensed Break Room",
+          "description": "A damaged bench, lukewarm vending machine, and suspicious calm invite you to breathe.",
+          "x": 4,
+          "y": 3,
+          "connections": [
+            "room_5",
+            "room_6",
+            "room_9"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_9": {
+          "id": "room_9",
+          "room_type": "Mini-Boss",
+          "title": "Middle Management Arena",
+          "description": "A smaller arena opens. The audience still screams like this counts for their dental plan.",
+          "x": 5,
+          "y": 2,
+          "connections": [
+            "room_7",
+            "room_8",
+            "room_10",
+            "room_11"
+          ],
+          "enemies": [
+            {
+              "id": "meeting_imp",
+              "name": "Mini-Boss Meeting Imp",
+              "hp": 40,
+              "attack": 12,
+              "defense": 3,
+              "xp": 40,
+              "tags": [
+                "office",
+                "tech",
+                "paperwork"
+              ],
+              "abilities": [
+                "circle_back"
+              ],
+              "flavor": "Keeps saying this will only take five minutes."
+            }
+          ],
+          "loot": [
+            {
+              "id": "soggy_crowbar",
+              "name": "Soggy Crowbar",
+              "type": "weapon",
+              "rarity": "common",
+              "attack_bonus": 2,
+              "defense_bonus": 0,
+              "effect": "none",
+              "flavor": "Damp, reliable, and emotionally unavailable."
+            },
+            {
+              "id": "tray_of_equal_opportunity",
+              "name": "Tray of Equal Opportunity",
+              "type": "weapon",
+              "rarity": "uncommon",
+              "attack_bonus": 3,
+              "defense_bonus": 1,
+              "effect": "cafeteria_justice",
+              "flavor": "A lunchroom shield that chose violence."
+            }
+          ],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_10": {
+          "id": "room_10",
+          "room_type": "Trap",
+          "title": "Suspicious Liability Hallway",
+          "description": "The room is quiet in the way lawsuits are quiet before discovery.",
+          "x": 6,
+          "y": 1,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": {
+            "id": "survey_kiosk",
+            "name": "Corporate Survey Kiosk",
+            "difficulty": 15,
+            "damage": 5,
+            "tags": [
+              "survey",
+              "retail",
+              "office",
+              "algorithm"
+            ],
+            "flavor": "One question becomes seventeen."
+          },
+          "event": null,
+          "cleared": false,
+          "visited": true
+        },
+        "room_11": {
+          "id": "room_11",
+          "room_type": "Loot",
+          "title": "Discount Questionable Prize Closet",
+          "description": "A prize container hums with poor judgment and possible value.",
+          "x": 6,
+          "y": 3,
+          "connections": [
+            "room_9",
+            "room_12"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_12": {
+          "id": "room_12",
+          "room_type": "Boss Gate",
+          "title": "Executive Access Gate",
+          "description": "A reinforced gate demands confidence, clearance, or a terrible idea.",
+          "x": 7,
+          "y": 2,
+          "connections": [
+            "room_10",
+            "room_11",
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_13": {
+          "id": "room_13",
+          "room_type": "Boss Room",
+          "title": "Final Performance Arena",
+          "description": "The arena opens wide. The audience signal spikes.",
+          "x": 8,
+          "y": 2,
+          "connections": [
+            "room_12",
+            "room_14"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": true,
+          "visited": true
+        },
+        "room_14": {
+          "id": "room_14",
+          "room_type": "Exit",
+          "title": "Emergency Exit-ish Door",
+          "description": "A door out. Probably. The label has been corrected with marker six times.",
+          "x": 9,
+          "y": 2,
+          "connections": [
+            "room_13"
+          ],
+          "enemies": [],
+          "loot": [],
+          "trap": null,
+          "event": null,
+          "cleared": false,
+          "visited": true
+        }
+      },
+      "boss": {
+        "id": "autoplay_archduke",
+        "name": "The Autoplay Archduke",
+        "hp": 140,
+        "attack": 21,
+        "defense": 6,
+        "xp": 89,
+        "abilities": [
+          "next_episode",
+          "skip_intro_scream"
+        ],
+        "floor_theme_tags": [
+          "media",
+          "algorithm"
+        ],
+        "flavor": "It starts another fight before you decide."
+      },
+      "lore": {
+        "title": "Floor 6: The Glitchy Gamble",
+        "intro": "Welcome to Floor 6: The Glitchy Gamble, where our contestants are just trying to survive... or at least get a decent signal. This floor is all about algorithmic despair - think of it as the streaming service's twisted way of saying 'we ran out of ideas'. Our brave adventurers will be navigating a maze of lag-filled corridors and precision- crafted disappointment. It's not like they have anything better to do... oh wait, they're trapped in this mine.",
+        "description": "As you descend into the Streaming Service Mines, the air grows thick with the stench of stale recommendations and forgotten password reset links. Neon signs flicker overhead, advertising 'exclusive content' that's actually just the same old rehashed shows from last season. Paperwork Zombies shamble through the corridors, their eyes fixed on the prize of completing yet another form in triplicate.",
+        "warning": "Remember, contestants: every move you make is being tracked and analyzed by our team of expert algorithms. And if you think you're seeing things, it's probably just a glitch... or maybe it's not. We can't really tell anymore. Proceed with caution (and a healthy dose of paranoia).",
+        "difficulty_applied": "normal",
+        "ollama_floor_intro": true,
+        "generated_once": true,
+        "boss_intro": "\"And now, mortals, gather 'round to behold the pi\u00e8ce de r\u00e9sistance of our Streaming Service Mines: The Autoplay Archduke!\n\n(Dramatic organ music swells as a spotlight illuminates the entrance)\n\nThis... thing has been auto-generated by our very own AI-driven game engine. It's like you, but more tedious. With less skill. And an infinite patience for your every mistake.\n\n Behold, its stats are irrelevant! For what matters is not its power, but the crushing weight of your inevitable failure!\n\nThe Autoplay Archduke wields... (dramatic pause) ...the Scroll of Infinite Replayability, imbuing it with the essence of a thousand mid-roll ads. Its attacks are a symphony of boredom: Auto-Save Stares, Skip Button Slams, and an endless loop of 'Are you sure you want to quit?'\n\nWill you brave the tedium? Or will you succumb to the existential dread of playing through this again... and again... and again?\"",
+        "sponsor_message": "\"Are you ready for a game of blood-soaked brutality? GrimCo Mop Sciences is proud to sponsor 'Dungeon Deluge'! Our Blood-Adjacent Floor Care Foam makes quick work of those pesky puddles of gore, leaving your floors sparkling clean and sanitized. It's the perfect complement to our contestants'... um, enthusiasm for decapitation! Try it at home on that mysterious stain in the basement (just don't ask questions). GrimCo: because a little bit of blood is just a part of life!\"",
+        "sponsor": {
+          "id": "grimco_mops",
+          "name": "GrimCo Mop Sciences",
+          "product": "Blood-Adjacent Floor Care Foam"
+        },
+        "rare_loot_narration": {
+          "hoa_violation_notice": "\"Ah, the coveted HOA Violation Notice! This Rare loot item is as prickly as it is priceless. Its razor-sharp edges can slash through enemies' defenses, leaving them reeling from the bureaucratic blow. But be warned: the tone is sharper than the paper itself. Use it to torment your foes, or risk being tormented by your HOA board.\""
+        },
+        "victory_recap": "\"Another Tuesday night, another group of Crawler's IT Department Survivor comrades utterly destroyed by the Streamer's nemesis - The Autoplay Archduke. I mean, who needs actual user engagement when you can just autoplay ads to victory? I guess that's what they mean by 'streamlined content delivery.'\n\nIn a thrilling display of bureaucratic savagery, Crawler outmaneuvered and exploited the Archduke's own algorithms against it, leveraging its very programming against itself. Meanwhile, our fearless leader Crawler declared, 'I'm not just surviving, I'm thriving in this existential nightmare!' as they claimed their 6th-floor Streaming Service Mines loot.\n\nCongratulations to Crawler on out-teching the tech overlords... for now.\""
+      },
+      "generated_by_ollama": true
+    }
+  },
+  "settings": {
+    "fullscreen": false,
+    "autosave": true,
+    "difficulty": "normal",
+    "ui_theme": "hazard",
+    "ollama_enabled": true,
+    "ollama_base_url": "http://127.0.0.1:11434",
+    "ollama_model": "llama3.1:8b",
+    "text_generation_timeout": 90,
+    "text_speed": "normal",
+    "music_volume": 0.5,
+    "sound_volume": 0.7
+  },
+  "run_history": []
+}
